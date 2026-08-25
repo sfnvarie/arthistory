@@ -4,13 +4,16 @@ Percorso autonomo e stratificato di storia dell'arte, costruito per una formazio
 
 # ▶ INIZIA QUI
 
-## [Mese 1 — Grecia → Roma → Cristianesimo/Bisanzio → Medioevo/Giotto](programma/mese-01.md)
+## Mese 1 — Grecia → Roma → Cristianesimo/Bisanzio → Medioevo/Giotto
 
-Apri il mese e usa le caselle di controllo per tenere traccia di letture, video, analisi, esercizi pratici e verifica finale.
+- [Versione Markdown](programma/mese-01.md)
+- [Versione HTML interattiva](programma/mese-01.html)
+
+La versione HTML contiene caselle cliccabili e salva il progresso nel browser del dispositivo tramite `localStorage`.
 
 ## Struttura
 
-- `programma/` — programmi mensili in Markdown, pensati per essere letti bene anche da tablet.
+- `programma/` — programmi mensili in Markdown e, quando utile, in versione HTML interattiva.
 - `fonti/` — fonti ricorrenti, libri, corsi, video e criteri di selezione.
 - `appunti/` — appunti personali di studio.
 - `esercizi/` — analisi di opere ed esercitazioni pratiche.
@@ -38,5 +41,3 @@ Il percorso procede per strati successivi: prima una mappa ampia e riconoscibile
 5. Verifica critica
 6. Portfolio pratico
 7. Criterio di completamento
-
-Le attività completabili sono indicate con checkbox `- [ ]`, così il file del mese funziona anche come registro essenziale dei progressi.
