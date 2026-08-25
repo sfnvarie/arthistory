@@ -2,6 +2,12 @@
 
 Percorso autonomo e stratificato di storia dell'arte, costruito per una formazione ampia ma non specialistica, con particolare attenzione al moderno/contemporaneo e al rapporto con la pratica artistica.
 
+# ▶ INIZIA QUI
+
+## [Mese 1 — Grecia → Roma → Cristianesimo/Bisanzio → Medioevo/Giotto](programma/mese-01.md)
+
+Apri il mese e usa le caselle di controllo per tenere traccia di letture, video, analisi, esercizi pratici e verifica finale.
+
 ## Struttura
 
 - `programma/` — programmi mensili in Markdown, pensati per essere letti bene anche da tablet.
@@ -21,7 +27,7 @@ Il percorso procede per strati successivi: prima una mappa ampia e riconoscibile
 2. Cosa dovresti sapere alla fine
 3. Per ogni capitolo/settimana:
    - Obiettivi
-   - Dove studiare
+   - Dove studiare — letture
    - Video / lezioni
    - Analisi / critica
    - Opere da riconoscere
@@ -33,6 +39,4 @@ Il percorso procede per strati successivi: prima una mappa ampia e riconoscibile
 6. Portfolio pratico
 7. Criterio di completamento
 
-## Programma attuale
-
-- [Mese 1 — Grecia → Roma → Cristianesimo/Bisanzio → Medioevo/Giotto](programma/mese-01.md)
+Le attività completabili sono indicate con checkbox `- [ ]`, così il file del mese funziona anche come registro essenziale dei progressi.
