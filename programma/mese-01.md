@@ -4,10 +4,6 @@
 **Carico indicativo:** circa 4–6 ore a settimana  
 **Metodo:** primo strato: mappa ampia, coerente e selettiva, senza approfondimenti monografici eccessivi.
 
-> **Fonte canonica:** questo Markdown è la fonte didattica unica del mese. La pagina operativa viene resa automaticamente da [mese.html?m=01](mese.html?m=01). Non mantenere più manualmente una seconda versione didattica HTML.
-
-> Prima di creare o modificare mesi successivi leggere [STRUTTURA_STANDARD.md](STRUTTURA_STANDARD.md).
-
 ## Tesi del mese
 Il mese segue una trasformazione continua: **come cambiano il corpo, lo spazio, la narrazione, la funzione dell'immagine e il rapporto con chi guarda** dalla Grecia a Giotto. I periodi non sono blocchi separati: ogni settimana riprende problemi già incontrati e li trasforma.
 
