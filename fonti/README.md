@@ -1,20 +1,26 @@
 # Fonti del percorso
 
 ## Ruolo delle fonti
-
 - **Smarthistory** — asse principale per storia dell'arte, opere, artisti e periodizzazione.
-- **OpenLearn** — asse teorico/concettuale trasversale; non sostituisce il repertorio di opere e autori.
-- **Treccani / testi italiani affidabili** — priorità per critica, teoria e metodologia, per evitare che la traduzione automatica banalizzi concetti più complessi.
-- **Libri** — pochi, selezionati, usati per dare continuità e profondità dove il web non basta.
-- **Video / musei / università** — da inserire quando realmente utili e di livello adeguato, senza duplicare gli stessi contenuti.
-
-## Libri attuali
-
-- E. H. Gombrich, *La storia dell'arte* — libro di accompagnamento generale.
+- **OpenLearn** — asse teorico/concettuale trasversale quando aggiunge qualcosa; non deve duplicare materiale già coperto bene altrove.
+- **Treccani / testi italiani affidabili** — priorità per critica, teoria e metodologia.
+- **Libri** — pochi e selezionati, per continuità e profondità.
+- **Video / musei / università** — inserire solo materiali puntuali e realmente utili.
 
 ## Regole di selezione
-
 1. Preferire materiale in italiano quando la qualità è adeguata.
-2. Per critica e teoria, evitare se possibile la traduzione automatica.
-3. Non accumulare più fonti sullo stesso argomento se non aggiungono un punto di vista diverso.
-4. Nel primo strato privilegiare ampiezza e riconoscibilità; gli approfondimenti specialistici vengono nei passaggi successivi.
+2. Se il materiale migliore è in inglese, usarlo senza forzare una fonte italiana inferiore.
+3. I link devono portare a contenuti di studio specifici, non a homepage generiche.
+4. Evitare sovrapposizioni tra piattaforme salvo differenze reali di prospettiva.
+5. Nel primo strato privilegiare ampiezza, opere-cardine e trasformazioni fondamentali; gli approfondimenti monografici arrivano nei ritorni successivi.
+6. Per i video distinguere sempre:
+   - **Essenziali**: parte del percorso e del progresso;
+   - **Approfondimenti consigliati**: contenuti validi che possono essere seguiti liberamente e non contano nel progresso.
+7. Non eliminare un approfondimento eccellente solo per rispettare rigidamente un numero di ore: segnalarlo come consigliato.
+8. Verificare che i link siano attuali e funzionanti prima di inserirli.
+
+## Libro attuale
+- E. H. Gombrich, *La storia dell'arte* — accompagnamento generale, non sostituisce le fonti puntuali.
+
+## Nota per nuove chat/agenti
+Prima di selezionare fonti per un nuovo mese leggere `../programma/STRUTTURA_STANDARD.md` e il mese precedente, così il livello e la quantità restano coerenti.
