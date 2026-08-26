@@ -18,26 +18,32 @@ Ogni mese deve contenere:
 
 ## Fonti e criterio di selezione
 - Preferire materiale puntuale e realmente studiabile, non homepage generiche.
-- Italiano quando la qualità è adeguata; inglese accettabile per materiali molto buoni, soprattutto Smarthistory.
+- Italiano quando la qualità è adeguata; inglese accettabile per materiali molto buoni.
 - Smarthistory: asse storico-visivo principale.
+- Heilbrunn Timeline of Art History (The Met): secondo asse strutturale, soprattutto per contesto cronologico/geografico e saggi collegati alle opere.
 - Treccani e testi italiani affidabili: critica, teoria, metodo.
 - OpenLearn: teoria trasversale quando aggiunge qualcosa; non va ripetuto per coprire la stessa materia già affrontata altrove.
-- Libri: pochi e scelti, per continuità e profondità.
+- Musei e archivi visivi autorevoli possono essere usati per riconoscimento e osservazione ad alta risoluzione.
+- Libri: pochi e scelti, per continuità e profondità. Non aggiungere manuali generali solo per aumentare la bibliografia.
 - Video: distinguere **Essenziali** e **Approfondimenti consigliati**. Gli approfondimenti validi non vanno eliminati solo per mantenere artificiosamente basso il carico; non contano però nel progresso obbligatorio.
 - Evitare duplicazioni tra piattaforme se non portano un punto di vista realmente diverso.
+- Prima di pubblicare un mese, verificare i link esterni essenziali.
 
-## Versioni dei mesi
-Per ogni mese mantenere due file:
-- `mese-XX.md`: fonte didattica leggibile e documentazione completa del programma.
-- `mese-XX.html`: versione operativa del sito, mobile/tablet friendly.
+## Unica fonte e generazione del sito
+NON mantenere manualmente due versioni indipendenti dello stesso mese.
 
-Il Markdown NON è il tracker operativo. Le checkbox Markdown sono solo descrittive. Il tracciamento reale avviene nell'HTML.
+- `programma/mese-XX.md` è l'**unica fonte didattica canonica**: contenuti, link, consegne, classificazione essenziale/consigliato, opere e verifiche si modificano qui.
+- Le pagine HTML mensili sono **output generati** dal Markdown tramite un template/interfaccia comune.
+- Il template comune contiene presentazione, Firebase, login, progressi, appunti, Quaderno, stati, link, feedback e revisione ChatGPT.
+- Un generatore/build deve produrre le pagine HTML e, preferibilmente, aggiornare anche la home/index dei mesi.
+- Non correggere a mano un HTML generato per cambiare contenuti didattici: correggere il Markdown e rigenerare.
+- Durante la migrazione il vecchio `mese-01.html` può restare operativo come riferimento, ma non deve diventare una seconda fonte da mantenere.
 
 ## Sito
 - GitHub Pages pubblica la repo.
-- Dominio previsto/attivo: `https://arte.3colors.it`.
+- Dominio: `https://arte.3colors.it`.
 - Homepage: `index.html`.
-- Ogni nuovo mese deve essere aggiunto alla homepage.
+- Ogni nuovo mese deve comparire nella homepage; idealmente questo indice viene aggiornato dal build.
 
 ## Firebase
 Progetto Firebase: `arthistory-658f3`.
@@ -62,7 +68,7 @@ Il documento mensile contiene almeno:
 Le regole Firestore devono consentire lettura/scrittura solo all'utente autenticato nel proprio ramo `users/{uid}/...`.
 
 ## Esperienza utente HTML
-Ogni pagina mensile deve avere:
+Ogni pagina mensile generata deve avere:
 - login Google + logout;
 - percentuale di avanzamento;
 - checkbox sincronizzate tra dispositivi;
@@ -87,5 +93,14 @@ In futuro un'integrazione AI diretta richiede backend sicuro e va progettata sep
 ## Metodo degli esercizi
 Gli esercizi non devono sembrare compiti scolastici fini a se stessi. Devono tradurre problemi storico-artistici in pratica visiva/audiovisiva. Per ogni prova pratica: problema storico → scelta formale → risultato → cosa cambiare.
 
+## Regole didattiche emerse dal Mese 1
+- Costruire ogni mese attorno a trasformazioni leggibili, non a una successione di nomi.
+- Riutilizzare confronti tra settimane per creare continuità (es. Grecia → Roma → Bisanzio).
+- Coprire più media quando sono storicamente decisivi: non ridurre la Grecia alla sola scultura; includere pittura vascolare, disegno e narrazione.
+- Per Roma rendere esplicita la specificità architettonico-ingegneristica: arco, volta, cupola, calcestruzzo e costruzione dello spazio.
+- Il passaggio tardoantico/cristiano non va presentato come semplice decadenza del naturalismo: frontalità, gerarchia e riduzione della profondità vanno lette anche come scelte funzionali e simboliche.
+- Se una settimana comprime troppi secoli, dichiararne il carattere di ponte oppure redistribuire il carico. Nel Mese 1 Romanico/Gotico sono un ponte selettivo verso Giotto, non una trattazione autonoma esaustiva.
+- Graduare la difficoltà degli esercizi pratici e tenere conto del carico complessivo della settimana.
+
 ## Stato attuale
-Il Mese 1 esiste in Markdown e HTML. L'HTML implementa già Firebase, progressi, appunti, quaderno, stati, link, feedback e copia per revisione ChatGPT. I mesi successivi devono partire da questa architettura, non dalla vecchia versione a sole checkbox/localStorage.
+Il Mese 1 esiste ancora in Markdown e HTML. Il Markdown deve diventare la fonte unica; l'HTML corrente implementa già Firebase e serve come riferimento funzionale per il template/generatore. Prima di costruire il Mese 2 va completata questa migrazione, così da non introdurre nuova doppia manutenzione.
