@@ -22,38 +22,13 @@ const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app),p
 const params=new URLSearchParams(location.search),month=(params.get('m')||'01').padStart(2,'0'),monthId='mese-'+month,mdFile=monthId+'.md',schemaVersion=5,localKey='arthistory-'+monthId+'-v5';
 const content=document.getElementById('content'),pct=document.getElementById('pct'),userStatus=document.getElementById('userStatus'),loginBtn=document.getElementById('loginBtn'),logoutBtn=document.getElementById('logoutBtn'),syncState=document.getElementById('syncState');
 let boxes=[],notes=[],works=[],statuses=[],links=[],feedbacks=[],currentUser=null,saveTimer=null;
-function preprocess(src){
- src=src.replace(/^> \*\*Fonte canonica:\*\*.*\n?/gm,'');
- src=src.replace(/^> Prima di creare o modificare mesi successivi.*\n?/gm,'');
- src=src.replace(/<!--\s*task:([a-zA-Z0-9_-]+)\s*-->\s*\n- \[ \] (.*)/g,'- [ ] <span data-task-id="$1">$2</span>');
- src=src.replace(/<!--\s*study-tools:([a-zA-Z0-9_-]+)\s*-->/g,'<div class="study-tools" data-slot="$1"></div>');
- return src;
-}
+function preprocess(src){src=src.replace(/^> \*\*Fonte canonica:\*\*.*\n?/gm,'');src=src.replace(/^> Prima di creare o modificare mesi successivi.*\n?/gm,'');src=src.replace(/<!--\s*task:([a-zA-Z0-9_-]+)\s*-->\s*\n- \[ \] (.*)/g,'- [ ] <span data-task-id="$1">$2</span>');src=src.replace(/<!--\s*study-tools:([a-zA-Z0-9_-]+)\s*-->/g,'<div class="study-tools" data-slot="$1"></div>');return src}
 function toolsHtml(slot){return `<h3>Appunti personali</h3><textarea class="notes" data-note="${slot}" placeholder="Note rapide, concetti, dubbi, collegamenti…"></textarea><div class="save-state" data-note-state="${slot}"></div><h3>Quaderno di lavoro</h3><textarea class="work" data-work="${slot}" placeholder="Svolgi qui esercizi, analisi e testi lunghi. Il contenuto viene sincronizzato con Firebase quando sei connesso."></textarea><div class="row"><label>Stato: <select class="status" data-status="${slot}"><option value="todo">Da fare</option><option value="doing">In lavorazione</option><option value="done">Completata</option><option value="reviewed">Revisionata</option></select></label></div><h3>Link elaborato / foto / video / file</h3><input class="worklink" data-link="${slot}" placeholder="https://…"><h3>Feedback / revisione ricevuta</h3><textarea class="feedback" data-feedback="${slot}" placeholder="Incolla qui il feedback ricevuto e le correzioni da conservare."></textarea><div class="tool-actions"><button class="btn secondary copy-review" data-copy="${slot}">Copia per revisione ChatGPT</button></div>`}
 async function render(){try{const r=await fetch(mdFile+'?v='+Date.now());if(!r.ok)throw new Error('HTTP '+r.status);let src=preprocess(await r.text());content.innerHTML=marked.parse(src,{gfm:true});document.title=(content.querySelector('h1')?.textContent||'ArtHistory')+' — ArtHistory';content.querySelectorAll('.study-tools[data-slot]').forEach(el=>el.innerHTML=toolsHtml(el.dataset.slot));content.querySelectorAll('span[data-task-id]').forEach(span=>{const li=span.closest('li');const cb=li?.querySelector('input[type=checkbox]');if(cb){cb.disabled=false;cb.dataset.id=span.dataset.taskId}});boxes=[...content.querySelectorAll('input[type=checkbox][data-id]')];notes=[...content.querySelectorAll('[data-note]')];works=[...content.querySelectorAll('[data-work]')];statuses=[...content.querySelectorAll('[data-status]')];links=[...content.querySelectorAll('[data-link]')];feedbacks=[...content.querySelectorAll('[data-feedback]')];wire();apply(localData())}catch(e){content.innerHTML='<div class="error"><strong>Errore nel caricamento del mese.</strong><br>'+e.message+'</div>'}}
 function parseLocal(k){try{return JSON.parse(localStorage.getItem(k)||'null')}catch{return null}}
 function mergeData(a={},b={}){const out={...a,...b};for(const key of ['progress','notes','work','statuses','links','feedback'])out[key]={...(a[key]||{}),...(b[key]||{})};return out}
-function migrateLegacy(d={}){
- if((d.schemaVersion||0)>=schemaVersion)return d;
- const out=mergeData({},d),p={...(d.progress||{})};
- if(month==='01'){
-   const oldParthenon=!!p['w1-video1'];
-   const oldDory=!!p['w1-video2'];
-   delete p['w1-video1'];delete p['w1-video2'];
-   if(oldDory)p['w1-video2']=true;
-   if(oldParthenon)p['w1-video3']=true;
- }
- out.progress=p;out.schemaVersion=schemaVersion;return out;
-}
-function localData(){
- const current=parseLocal(localKey);if(current)return current;
- let merged={};
- const legacyKeys=month==='01'?['arthistory-mese-01-v4','arthistory-mese01-v2','arthistory-mese01-v1']:[];
- for(const k of legacyKeys){const d=parseLocal(k);if(d)merged=mergeData(merged,migrateLegacy(d))}
- merged.schemaVersion=schemaVersion;
- if(Object.keys(merged).length>1)localStorage.setItem(localKey,JSON.stringify(merged));
- return merged;
-}
+function migrateLegacy(d={}){if((d.schemaVersion||0)>=schemaVersion)return d;const out=mergeData({},d),p={...(d.progress||{})};if(month==='01'){const oldParthenon=!!p['w1-video1'];const oldDory=!!p['w1-video2'];delete p['w1-video1'];delete p['w1-video2'];if(oldDory)p['w1-video2']=true;if(oldParthenon)p['w1-video3']=true}out.progress=p;out.schemaVersion=schemaVersion;return out}
+function localData(){const current=parseLocal(localKey);if(current)return current;let merged={};const legacyKeys=month==='01'?['arthistory-mese-01-v4','arthistory-mese01-v2','arthistory-mese01-v1']:[];for(const k of legacyKeys){const d=parseLocal(k);if(d)merged=mergeData(merged,migrateLegacy(d))}merged.schemaVersion=schemaVersion;if(Object.keys(merged).length>1)localStorage.setItem(localKey,JSON.stringify(merged));return merged}
 function collect(){const progress={},n={},w={},s={},l={},f={};boxes.forEach(b=>progress[b.dataset.id]=b.checked);notes.forEach(x=>n[x.dataset.note]=x.value);works.forEach(x=>w[x.dataset.work]=x.value);statuses.forEach(x=>s[x.dataset.status]=x.value);links.forEach(x=>l[x.dataset.link]=x.value);feedbacks.forEach(x=>f[x.dataset.feedback]=x.value);return {schemaVersion,progress,notes:n,work:w,statuses:s,links:l,feedback:f}}
 function paint(){boxes.forEach(b=>b.closest('li')?.classList.toggle('task-done',b.checked));pct.textContent=boxes.length?Math.round(boxes.filter(b=>b.checked).length/boxes.length*100)+'%':'0%'}
 function apply(d={}){const p=d.progress||{},n=d.notes||{},w=d.work||{},s=d.statuses||{},l=d.links||{},f=d.feedback||{};boxes.forEach(b=>b.checked=!!p[b.dataset.id]);notes.forEach(x=>x.value=n[x.dataset.note]||'');works.forEach(x=>x.value=w[x.dataset.work]||'');statuses.forEach(x=>x.value=s[x.dataset.status]||'todo');links.forEach(x=>x.value=l[x.dataset.link]||'');feedbacks.forEach(x=>x.value=f[x.dataset.feedback]||'');paint()}
@@ -62,11 +37,14 @@ function userDoc(){return doc(db,'users',currentUser.uid,'months',monthId)}
 async function saveCloud(){if(!currentUser)return;syncState.textContent='Salvataggio…';try{await setDoc(userDoc(),{...collect(),updatedAt:serverTimestamp()},{merge:true});syncState.textContent='Sincronizzato';setTimeout(()=>{if(syncState.textContent==='Sincronizzato')syncState.textContent=''},1200)}catch(e){console.error(e);syncState.textContent='Errore sincronizzazione'}}
 function schedule(){saveLocal();if(currentUser){clearTimeout(saveTimer);saveTimer=setTimeout(saveCloud,500)}}
 function wire(){boxes.forEach(x=>x.addEventListener('change',schedule));[...notes,...works,...statuses,...links,...feedbacks].forEach(x=>x.addEventListener(x.tagName==='SELECT'?'change':'input',schedule));content.querySelectorAll('.copy-review').forEach(btn=>btn.addEventListener('click',async()=>{const slot=btn.dataset.copy;const work=works.find(x=>x.dataset.work===slot)?.value||'';const link=links.find(x=>x.dataset.link===slot)?.value||'';const text=`Sto seguendo il percorso ArtHistory. Sezione: ${slot}.\n\nELABORATO:\n${work}\n\nLINK EVENTUALE:\n${link}\n\nRevisiona il lavoro rispetto alla consegna del capitolo. Dimmi: 1) cosa funziona; 2) errori o debolezze; 3) cosa manca; 4) come migliorarlo senza riscriverlo al posto mio; 5) una valutazione sintetica del livello raggiunto.`;await navigator.clipboard.writeText(text);btn.textContent='Copiato';setTimeout(()=>btn.textContent='Copia per revisione ChatGPT',1200)}))}
-const useRedirect=window.matchMedia('(max-width: 900px)').matches||/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-try{await getRedirectResult(auth)}catch(e){console.error('Google redirect auth error',e);syncState.textContent='Errore accesso Google'}
-loginBtn.addEventListener('click',async()=>{try{syncState.textContent='Accesso Google…';if(useRedirect){await signInWithRedirect(auth,provider)}else{await signInWithPopup(auth,provider)}}catch(e){console.error(e);syncState.textContent='';alert('Accesso Google non riuscito: '+e.message)}});logoutBtn.addEventListener('click',()=>signOut(auth));
-onAuthStateChanged(auth,async user=>{currentUser=user;if(!boxes.length)return;if(!user){userStatus.textContent='Non connesso: dati solo su questo dispositivo.';loginBtn.classList.remove('hidden');logoutBtn.classList.add('hidden');if(syncState.textContent!=='Errore accesso Google')syncState.textContent='';apply(localData());return}userStatus.textContent='Connesso come '+(user.email||user.displayName||'utente Google');loginBtn.classList.add('hidden');logoutBtn.classList.remove('hidden');syncState.textContent='Caricamento…';try{const local=localData(),snap=await getDoc(userDoc());if(snap.exists()){const cloud=migrateLegacy(snap.data());const merged=mergeData(local,cloud);Object.keys(local.progress||{}).forEach(k=>{if(local.progress[k]===true)merged.progress[k]=true});merged.schemaVersion=schemaVersion;apply(merged);saveLocal();await saveCloud()}else{apply(local);await saveCloud()}syncState.textContent='Sincronizzato';setTimeout(()=>syncState.textContent='',1200)}catch(e){console.error(e);syncState.textContent='Errore caricamento'}});
+async function handleAuthUser(user){currentUser=user;if(!user){userStatus.textContent='Non connesso: dati solo su questo dispositivo.';loginBtn.classList.remove('hidden');logoutBtn.classList.add('hidden');if(syncState.textContent!=='Errore accesso Google')syncState.textContent='';apply(localData());return}userStatus.textContent='Connesso come '+(user.email||user.displayName||'utente Google');loginBtn.classList.add('hidden');logoutBtn.classList.remove('hidden');syncState.textContent='Caricamento…';try{const local=localData(),snap=await getDoc(userDoc());if(snap.exists()){const cloud=migrateLegacy(snap.data());const merged=mergeData(local,cloud);Object.keys(local.progress||{}).forEach(k=>{if(local.progress[k]===true)merged.progress[k]=true});merged.schemaVersion=schemaVersion;apply(merged);saveLocal();await saveCloud()}else{apply(local);await saveCloud()}syncState.textContent='Sincronizzato';setTimeout(()=>syncState.textContent='',1200)}catch(e){console.error(e);syncState.textContent='Errore caricamento'}}
 await render();
+const useRedirect=window.matchMedia('(max-width: 900px)').matches||/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+try{const redirectResult=await getRedirectResult(auth);if(redirectResult?.user)await handleAuthUser(redirectResult.user)}catch(e){console.error('Google redirect auth error',e);syncState.textContent='Errore accesso Google: '+(e.code||e.message)}
+onAuthStateChanged(auth,user=>{if(boxes.length)handleAuthUser(user)});
+loginBtn.addEventListener('click',async()=>{try{syncState.textContent='Accesso Google…';provider.setCustomParameters({prompt:'select_account'});if(useRedirect){await signInWithRedirect(auth,provider)}else{await signInWithPopup(auth,provider)}}catch(e){console.error(e);syncState.textContent='';alert('Accesso Google non riuscito: '+e.message)}});
+logoutBtn.addEventListener('click',()=>signOut(auth));
+if(auth.currentUser)await handleAuthUser(auth.currentUser);
 </script>
 </body>
 </html>
