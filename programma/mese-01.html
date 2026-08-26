@@ -5,83 +5,143 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Storia dell'arte — Mese 1</title>
 <style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:auto;padding:20px;line-height:1.55;background:#fafafa;color:#161616}h1,h2,h3{line-height:1.2}section{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:16px 0}a{color:#1558d6}label.task{display:block;padding:7px 0}input[type=checkbox]{transform:scale(1.25);margin-right:10px}.done{text-decoration:line-through;opacity:.6}.progress{position:sticky;top:0;background:#fff;border:1px solid #ddd;border-radius:10px;padding:10px 14px;z-index:5}small{color:#555}.pill{display:inline-block;background:#eee;border-radius:999px;padding:3px 9px;margin-right:6px}.reset{margin-left:10px}</style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:auto;padding:18px;line-height:1.55;background:#fafafa;color:#161616}h1,h2,h3{line-height:1.2}section{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:16px 0}a{color:#1558d6}label.task{display:block;padding:7px 0}input[type=checkbox]{transform:scale(1.25);margin-right:10px}.done{text-decoration:line-through;opacity:.6}.progress{position:sticky;top:0;background:#fff;border:1px solid #ddd;border-radius:10px;padding:10px 14px;z-index:5;box-shadow:0 2px 8px #0001}small{color:#555}.pill{display:inline-block;background:#eee;border-radius:999px;padding:3px 9px;margin-right:6px}.btn{border:0;border-radius:8px;padding:8px 12px;cursor:pointer}.primary{background:#222;color:#fff}.secondary{background:#eee;color:#222}.auth{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}.notes{width:100%;min-height:110px;box-sizing:border-box;border:1px solid #ccc;border-radius:8px;padding:10px;font:inherit;resize:vertical}.save-state{font-size:.85rem;color:#666}.recommended{border-left:4px solid #bbb;padding-left:12px}.toplink{text-decoration:none;color:#333}.hidden{display:none}</style>
 </head>
 <body>
+<a class="toplink" href="../index.html">← Indice</a>
 <h1>Storia dell'arte — Mese 1</h1>
 <p><strong>Grecia → Roma → Cristianesimo/Bisanzio → Medioevo/Giotto</strong></p>
-<div class="progress"><strong>Avanzamento: <span id="pct">0%</span></strong><button class="reset" onclick="resetProgress()">Azzera progresso</button><br><small>Le spunte vengono salvate solo in questo browser/dispositivo.</small></div>
+<div class="progress">
+  <strong>Avanzamento: <span id="pct">0%</span></strong>
+  <div class="auth">
+    <span id="userStatus">Non connesso: progresso salvato solo su questo dispositivo.</span>
+    <button id="loginBtn" class="btn primary">Accedi con Google</button>
+    <button id="logoutBtn" class="btn secondary hidden">Esci</button>
+    <span id="syncState" class="save-state"></span>
+  </div>
+</div>
+
 <section><h2>Obiettivo del mese</h2><p>Costruire una prima mappa storica, visiva e critica dall'arte greca a Giotto: riconoscere opere-cardine, collocarle, leggerne forma e funzione, capire le trasformazioni tra i periodi e tradurre alcuni problemi storici nella pratica visiva/audiovisiva.</p><h3>Alla fine del mese dovresti saper</h3><ul><li>orientarti nella sequenza storica Grecia → Roma → Cristianesimo/Bisanzio → Romanico/Gotico → Giotto;</li><li>riconoscere almeno 15 delle 20 opere-cardine;</li><li>usare concetti come idealizzazione, naturalismo, contrapposto, gerarchia visiva, simbolo, frontalità e spazio narrativo;</li><li>confrontare opere di periodi diversi;</li><li>avere realizzato quattro piccoli esperimenti pratici.</li></ul></section>
+
 <section id="w1"><h2>Settimana 1 — Grecia</h2><p><span class="pill">Classico</span><span class="pill">Ellenistico</span><span class="pill">corpo</span></p>
 <h3>Obiettivi</h3><ul><li>Distinguere Arcaico, Classico ed Ellenistico.</li><li>Comprendere proporzione, idealizzazione, naturalismo e contrapposto.</li></ul>
 <h3>Dove studiare — letture</h3>
 <label class="task"><input type="checkbox" data-id="w1-read1"> <a href="https://smarthistory.org/greek_intro/" target="_blank">Smarthistory — Ancient Greek art, an introduction</a></label>
 <label class="task"><input type="checkbox" data-id="w1-read2"> <a href="https://smarthistory.org/polykleitos-doryphoros-spear-bearer/" target="_blank">Smarthistory — Polykleitos, Doryphoros</a></label>
 <label class="task"><input type="checkbox" data-id="w1-read3"> <a href="https://www.treccani.it/enciclopedia/policleto-e-la-misura-del-bello_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/" target="_blank">Treccani — Policleto e la misura del bello</a></label>
-<h3>Video / lezioni</h3>
+<h3>Video essenziali</h3>
 <label class="task"><input type="checkbox" data-id="w1-video1"> <a href="https://smarthistory.org/the-parthenon-athens/" target="_blank">Smarthistory — The Parthenon, Athens</a></label>
 <label class="task"><input type="checkbox" data-id="w1-video2"> Guarda il video integrato nella pagina del Doriforo.</label>
+<div class="recommended"><h3>Approfondimenti consigliati — non contano nel progresso</h3><p><a href="https://smarthistory.org/kritios-boy/" target="_blank">Kritios Boy</a> — molto utile per vedere concretamente il passaggio Arcaico → Classico e la nascita di un corpo più naturale.</p><p><a href="https://smarthistory.org/capitoline-venus-copy-of-the-aphrodite-of-knidos/" target="_blank">Aphrodite of Knidos / Capitoline Venus</a> — introduce il nudo femminile monumentale, lo sguardo e il rapporto tra esposizione e pudore.</p></div>
 <h3>Opere da riconoscere</h3><p>Kouros · Doriforo · Partenone · Afrodite di Cnido · Laocoonte</p>
 <h3>Esercitazione di analisi</h3><label class="task"><input type="checkbox" data-id="w1-analysis"> Doriforo vs Laocoonte: massimo 300 parole su corpo, equilibrio, forze, espressione e spazio.</label>
 <h3>Esercitazione pratica</h3><label class="task"><input type="checkbox" data-id="w1-practice"> Serie di 6 fotografie dello stesso corpo/oggetto: 3 equilibrio/stabilità/misura, 3 tensione/movimento/espressività.</label>
+<h3>Appunti personali</h3><textarea class="notes" data-note="w1" placeholder="Idee, opere, concetti, dubbi, collegamenti con la tua pratica..."></textarea><div class="save-state" data-note-state="w1"></div>
 <h3>Cosa sapere a fine capitolo</h3><label class="task"><input type="checkbox" data-id="w1-check"> Spiegare in circa 3 minuti perché Doriforo e Laocoonte appartengono a due idee diverse di rappresentazione.</label>
 </section>
+
 <section id="w2"><h2>Settimana 2 — Roma</h2>
 <h3>Obiettivi</h3><ul><li>Rapporto con i modelli greci.</li><li>Verismo repubblicano vs idealizzazione imperiale.</li><li>Immagine e architettura come strumenti di potere.</li></ul>
 <h3>Dove studiare — letture</h3>
 <label class="task"><input type="checkbox" data-id="w2-read1"> <a href="https://smarthistory.org/introduction-to-ancient-roman-art/" target="_blank">Smarthistory — Ancient Roman art, an introduction</a></label>
 <label class="task"><input type="checkbox" data-id="w2-read2"> <a href="https://smarthistory.org/roman-copies-of-ancient-greek-art/" target="_blank">Smarthistory — Roman copies of ancient Greek art</a></label>
 <label class="task"><input type="checkbox" data-id="w2-read3"> <a href="https://www.treccani.it/enciclopedia/introduzione-alle-arti-visive-di-roma_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/" target="_blank">Treccani — Introduzione alle arti visive di Roma</a></label>
-<h3>Video / lezioni</h3>
+<h3>Video essenziali</h3>
 <label class="task"><input type="checkbox" data-id="w2-video1"> <a href="https://smarthistory.org/augustus-of-primaporta/" target="_blank">Smarthistory — Augustus of Primaporta</a></label>
 <label class="task"><input type="checkbox" data-id="w2-video2"> <a href="https://smarthistory.org/the-pantheon-rome/" target="_blank">Smarthistory — The Pantheon, Rome</a></label>
 <h3>Opere da riconoscere</h3><p>Ritratto repubblicano · Augusto di Prima Porta · Ara Pacis · Pantheon · Colonna Traiana</p>
 <h3>Esercitazione di analisi</h3><label class="task"><input type="checkbox" data-id="w2-analysis"> Doriforo vs Augusto di Prima Porta: cosa Roma conserva, modifica e aggiunge.</label>
 <h3>Esercitazione pratica</h3><label class="task"><input type="checkbox" data-id="w2-practice"> Video “costruire autorità”: stesso soggetto, una ripresa neutra e una autorevole.</label>
+<h3>Appunti personali</h3><textarea class="notes" data-note="w2" placeholder="Idee, opere, concetti, dubbi, collegamenti con la tua pratica..."></textarea><div class="save-state" data-note-state="w2"></div>
 <h3>Cosa sapere a fine capitolo</h3><label class="task"><input type="checkbox" data-id="w2-check"> Spiegare perché l'arte romana non è una semplice copia di quella greca.</label>
 </section>
+
 <section id="w3"><h2>Settimana 3 — Tardoantico, Cristianesimo e Bisanzio</h2>
 <h3>Obiettivi</h3><ul><li>Capire il mutamento della funzione dell'immagine.</li><li>Leggere frontalità, gerarchia e riduzione della profondità come scelte.</li></ul>
 <h3>Dove studiare — letture</h3>
 <label class="task"><input type="checkbox" data-id="w3-read1"> <a href="https://smarthistory.org/a-beginners-guide-to-byzantine-art/" target="_blank">Smarthistory — Byzantine art, an introduction</a></label>
 <label class="task"><input type="checkbox" data-id="w3-read2"> <a href="https://www.treccani.it/enciclopedia/la-crisi-della-forma-antica-al-tramonto-dell-impero_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/" target="_blank">Treccani — La crisi della forma antica al tramonto dell'impero</a></label>
 <label class="task"><input type="checkbox" data-id="w3-read3"> <a href="https://www.treccani.it/enciclopedia/l-eredita-antica-e-la-civilta-figurativa-del-cristianesimo_%28Storia-della-civilta-Europea%29/" target="_blank">Treccani — L'eredità antica e la civiltà figurativa del cristianesimo</a></label>
-<h3>Video / lezioni</h3>
+<h3>Video essenziali</h3>
 <label class="task"><input type="checkbox" data-id="w3-video1"> <a href="https://smarthistory.org/hagia-sophia-istanbul/" target="_blank">Smarthistory — Hagia Sophia</a></label>
 <label class="task"><input type="checkbox" data-id="w3-video2"> <a href="https://smarthistory.org/san-vitale-and-the-justinian-mosaic/" target="_blank">Smarthistory — San Vitale and the Justinian mosaic</a></label>
 <h3>Opere da riconoscere</h3><p>Sarcofago di Giunio Basso · Arco di Costantino · Hagia Sophia · Giustiniano a San Vitale · Teodora a San Vitale</p>
 <h3>Esercitazione di analisi</h3><label class="task"><input type="checkbox" data-id="w3-analysis"> Augusto vs Giustiniano: quale idea di potere produce ciascuna immagine?</label>
 <h3>Esercitazione pratica</h3><label class="task"><input type="checkbox" data-id="w3-practice"> Dittico audiovisivo “corpo / icona”: stesso soggetto, prima presenza fisica poi simbolica.</label>
+<h3>Appunti personali</h3><textarea class="notes" data-note="w3" placeholder="Idee, opere, concetti, dubbi, collegamenti con la tua pratica..."></textarea><div class="save-state" data-note-state="w3"></div>
 <h3>Cosa sapere a fine capitolo</h3><label class="task"><input type="checkbox" data-id="w3-check"> Argomentare perché una figura piatta e frontale può essere una scelta intenzionale e potente.</label>
 </section>
+
 <section id="w4"><h2>Settimana 4 — Medioevo e Giotto</h2>
 <h3>Obiettivi</h3><ul><li>Orientarsi fra Romanico e Gotico.</li><li>Capire la novità di Giotto attraverso spazio, massa, affetti e narrazione.</li></ul>
 <h3>Dove studiare — letture</h3>
 <label class="task"><input type="checkbox" data-id="w4-read1"> <a href="https://smarthistory.org/introduction-to-late-gothic-art/" target="_blank">Smarthistory — Late Gothic art, an introduction</a></label>
 <label class="task"><input type="checkbox" data-id="w4-read2"> <a href="https://www.treccani.it/enciclopedia/giotto_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/" target="_blank">Treccani — Giotto</a></label>
 <label class="task"><input type="checkbox" data-id="w4-read3"> <a href="https://www.treccani.it/enciclopedia/prospettiva_%28Enciclopedia-Italiana%29/" target="_blank">Treccani — Prospettiva (solo passaggio su Giotto)</a></label>
-<h3>Video / lezioni</h3>
+<h3>Video essenziali</h3>
 <label class="task"><input type="checkbox" data-id="w4-video1"> <a href="https://smarthistory.org/giotto-arena-scrovegni-chapel-part-1-of-4/" target="_blank">Smarthistory — Giotto, Arena Chapel, part 1</a></label>
 <h3>Opere da riconoscere</h3><p>Sainte-Foy, Conques · Chartres · Cimabue, Santa Trinita Madonna · Duccio, Maestà · Giotto, Cappella degli Scrovegni</p>
 <h3>Esercitazione di analisi</h3><label class="task"><input type="checkbox" data-id="w4-analysis"> Cimabue/Duccio vs Giotto: massa, spazio, gesto, sguardo, emozione e rapporto fra figure.</label>
 <h3>Esercitazione pratica</h3><label class="task"><input type="checkbox" data-id="w4-practice"> Micro-sequenza narrativa di 45–60 secondi, massimo 4 inquadrature, senza dialogo/testo.</label>
+<h3>Appunti personali</h3><textarea class="notes" data-note="w4" placeholder="Idee, opere, concetti, dubbi, collegamenti con la tua pratica..."></textarea><div class="save-state" data-note-state="w4"></div>
 <h3>Cosa sapere a fine capitolo</h3><label class="task"><input type="checkbox" data-id="w4-check"> Spiegare perché Giotto è una svolta senza ridurlo alla formula “inventa la prospettiva”.</label>
 </section>
+
 <section><h2>Verifica di fine mese</h2>
 <label class="task"><input type="checkbox" data-id="final1"> Costruire a memoria la linea cronologica completa del mese.</label>
 <label class="task"><input type="checkbox" data-id="final2"> Riconoscere almeno 15/20 opere e indicarne periodo e importanza.</label>
 <label class="task"><input type="checkbox" data-id="final3"> Scegliere due letture critiche Treccani e annotare quale idea ha modificato il proprio modo di guardare le opere.</label>
 <label class="task"><input type="checkbox" data-id="final4"> Selezionare i due esperimenti pratici più riusciti e scrivere una breve nota su problema storico → scelta formale → risultato.</label>
+<h3>Appunti / sintesi finale</h3><textarea class="notes" data-note="final" placeholder="Sintesi del mese, connessioni, cose da riprendere nel secondo strato..."></textarea><div class="save-state" data-note-state="final"></div>
 </section>
-<script>
-const key='arthistory-mese01-v1';
+
+<script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js';
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, setPersistence, browserLocalPersistence } from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js';
+import { getFirestore, doc, getDoc, setDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js';
+
+const firebaseConfig={apiKey:'AIzaSyA9t2vustWiXTI9weDbLnWswcXk7vZ533o',authDomain:'arthistory-658f3.firebaseapp.com',projectId:'arthistory-658f3',storageBucket:'arthistory-658f3.firebasestorage.app',messagingSenderId:'81242494650',appId:'1:81242494650:web:2dd3de4d65ed0265eb1483'};
+const app=initializeApp(firebaseConfig), auth=getAuth(app), db=getFirestore(app), provider=new GoogleAuthProvider();
+await setPersistence(auth,browserLocalPersistence);
+
+const localKey='arthistory-mese01-v2';
 const boxes=[...document.querySelectorAll('input[type=checkbox][data-id]')];
-function load(){const saved=JSON.parse(localStorage.getItem(key)||'{}');boxes.forEach(b=>{b.checked=!!saved[b.dataset.id];paint(b)});update();}
-function paint(b){b.closest('label')?.classList.toggle('done',b.checked)}
-function save(){const o={};boxes.forEach(b=>o[b.dataset.id]=b.checked);localStorage.setItem(key,JSON.stringify(o));update();}
-function update(){const n=boxes.filter(b=>b.checked).length;document.getElementById('pct').textContent=Math.round((n/boxes.length)*100)+'%';}
-function resetProgress(){if(confirm('Azzerare tutte le spunte del Mese 1 su questo dispositivo?')){localStorage.removeItem(key);boxes.forEach(b=>{b.checked=false;paint(b)});update();}}
-boxes.forEach(b=>b.addEventListener('change',()=>{paint(b);save()}));load();
+const notes=[...document.querySelectorAll('textarea[data-note]')];
+const pct=document.getElementById('pct'), userStatus=document.getElementById('userStatus'), loginBtn=document.getElementById('loginBtn'), logoutBtn=document.getElementById('logoutBtn'), syncState=document.getElementById('syncState');
+let currentUser=null, saveTimer=null;
+
+function localData(){try{return JSON.parse(localStorage.getItem(localKey)||'{"progress":{},"notes":{}}')}catch{return {progress:{},notes:{}}}}
+function collect(){const progress={};boxes.forEach(b=>progress[b.dataset.id]=b.checked);const n={};notes.forEach(t=>n[t.dataset.note]=t.value);return {progress,notes:n}}
+function paint(){boxes.forEach(b=>b.closest('label')?.classList.toggle('done',b.checked));const n=boxes.filter(b=>b.checked).length;pct.textContent=Math.round((n/boxes.length)*100)+'%'}
+function apply(data){const p=data.progress||{},n=data.notes||{};boxes.forEach(b=>b.checked=!!p[b.dataset.id]);notes.forEach(t=>t.value=n[t.dataset.note]||'');paint()}
+function saveLocal(){localStorage.setItem(localKey,JSON.stringify(collect()));paint()}
+function userDoc(){return doc(db,'users',currentUser.uid,'months','mese-01')}
+async function saveCloud(){if(!currentUser)return;syncState.textContent='Salvataggio…';try{const d=collect();await setDoc(userDoc(),{...d,updatedAt:serverTimestamp()},{merge:true});syncState.textContent='Sincronizzato';setTimeout(()=>{if(syncState.textContent==='Sincronizzato')syncState.textContent=''},1400)}catch(e){console.error(e);syncState.textContent='Errore sincronizzazione'}}
+function scheduleSave(){saveLocal();if(currentUser){clearTimeout(saveTimer);saveTimer=setTimeout(saveCloud,500)}}
+boxes.forEach(b=>b.addEventListener('change',scheduleSave));
+notes.forEach(t=>t.addEventListener('input',()=>{const s=document.querySelector(`[data-note-state="${t.dataset.note}"]`);if(s)s.textContent=currentUser?'Salvataggio automatico…':'Salvato sul dispositivo';scheduleSave()}));
+
+loginBtn.addEventListener('click',async()=>{try{await signInWithPopup(auth,provider)}catch(e){console.error(e);alert('Accesso Google non riuscito: '+e.message)}});
+logoutBtn.addEventListener('click',()=>signOut(auth));
+
+onAuthStateChanged(auth,async user=>{
+ currentUser=user;
+ if(!user){userStatus.textContent='Non connesso: progresso salvato solo su questo dispositivo.';loginBtn.classList.remove('hidden');logoutBtn.classList.add('hidden');syncState.textContent='';apply(localData());return}
+ userStatus.textContent='Connesso come '+(user.email||user.displayName||'utente Google');loginBtn.classList.add('hidden');logoutBtn.classList.remove('hidden');syncState.textContent='Caricamento…';
+ try{
+   const local=localData(), snap=await getDoc(userDoc());
+   if(snap.exists()){
+     const cloud=snap.data();
+     const mergedProgress={...(local.progress||{}),...(cloud.progress||{})};
+     Object.keys(local.progress||{}).forEach(k=>{if(local.progress[k]===true)mergedProgress[k]=true});
+     const mergedNotes={...(local.notes||{}),...(cloud.notes||{})};
+     apply({progress:mergedProgress,notes:mergedNotes});saveLocal();await saveCloud();
+   }else{apply(local);await saveCloud()}
+   syncState.textContent='Sincronizzato';setTimeout(()=>syncState.textContent='',1200)
+ }catch(e){console.error(e);syncState.textContent='Errore caricamento'}
+});
+
+apply(localData());
 </script>
 </body>
 </html>
