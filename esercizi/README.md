@@ -1,10 +1,22 @@
 # Esercizi
 
-Qui confluiscono sia le esercitazioni di analisi sia le prove pratiche.
+Il percorso usa due tipi di esercizio:
+- **analisi** — confronti tra opere, brevi testi critici, verifiche visive;
+- **pratica artistica** — fotografia, video, suono, piccoli dispositivi/installazioni.
 
-## Struttura consigliata
+Gli esercizi non sono compiti scolastici fini a se stessi: devono trasformare un problema storico-artistico in una decisione formale o critica.
 
-- `analisi/` — confronti tra opere, brevi testi critici, verifiche visive.
-- `pratici/` — fotografia, video, suono, piccoli dispositivi/installazioni.
+## Workflow operativo
+Ogni capitolo della pagina HTML deve offrire:
+1. consegna dell'esercizio;
+2. **Quaderno di lavoro** ampio per svolgerlo;
+3. stato: `Da fare / In lavorazione / Completata / Revisionata`;
+4. campo per link a foto, video o file esterni;
+5. campo `Feedback / revisione ricevuta`;
+6. pulsante `Copia per revisione ChatGPT`.
 
-Ogni esercizio pratico dovrebbe annotare: problema storico studiato, scelta formale, risultato, cosa cambiare al tentativo successivo.
+Il pulsante di revisione deve preparare almeno: titolo/capitolo, consegna, testo svolto, eventuale link e richiesta di feedback sui criteri pertinenti. Non inserire chiavi API AI nel frontend pubblico.
+
+Per le prove pratiche registrare quando utile: problema storico studiato → scelta formale → risultato → cosa cambiare.
+
+Dati ed elaborati sono salvati in Firebase/Firestore quando l'utente è autenticato. Per la specifica completa leggere `../programma/STRUTTURA_STANDARD.md`.
