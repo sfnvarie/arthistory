@@ -1,11 +1,18 @@
 # Appunti
 
-Cartella per gli appunti personali del percorso.
+Gli appunti personali NON devono essere salvati nella repo pubblica.
 
-Struttura consigliata:
+Nel sito operativo ogni capitolo/settimana ha:
+- **Appunti personali**: note brevi, dubbi, concetti, collegamenti.
+- **Quaderno di lavoro**: spazio ampio per esercizi, testi, riflessioni e sviluppi più lunghi.
 
-- `mese-01/`
-- `mese-02/`
-- ecc.
+Quando l'utente è autenticato con Google, questi contenuti vengono salvati in Cloud Firestore sotto il proprio ramo utente e sincronizzati tra dispositivi. Senza login esiste solo il fallback locale del browser.
 
-Gli appunti non devono duplicare il programma: servono a fissare concetti, confronti tra opere, domande e connessioni con la pratica artistica.
+Struttura logica corrente nel documento mensile Firestore:
+- `notes`: appunti brevi;
+- `work`: elaborati lunghi/quaderno;
+- `statuses`: stato del lavoro;
+- `links`: collegamenti a file, immagini o video;
+- `feedback`: revisioni ricevute.
+
+Per qualunque modifica futura leggere `../programma/STRUTTURA_STANDARD.md`.
