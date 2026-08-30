@@ -5,24 +5,46 @@ Questo file è la fonte di verità per creare o modificare i mesi del progetto *
 ## Obiettivo generale
 Percorso autonomo e stratificato di storia dell'arte: prima una mappa ampia e solida, poi ritorni successivi di approfondimento. Evitare sia il manuale enciclopedico sia il percorso troppo superficiale. Il moderno/contemporaneo avrà spazio importante nei mesi successivi.
 
+Il percorso costruisce in parallelo anche una **cronologia essenziale della filosofia e delle idee**, perché i problemi filosofici aiutano a contestualizzare le trasformazioni artistiche. Il rapporto arte ↔ filosofia va però formulato con rigore: distinguere sempre contemporaneità culturale, analogia di problemi e influenza storicamente documentata. Non trasformare semplici parallelismi in rapporti causali.
+
 ## Formato didattico obbligatorio
 Ogni mese deve contenere:
 1. Tesi/filo trasformativo del mese.
 2. Obiettivo del mese.
 3. Cosa bisogna sapere alla fine.
 4. Libro/i di accompagnamento, se utili.
-5. Capitoli/settimane con: Obiettivi; Dove studiare; Video essenziali; Approfondimenti consigliati; Supporti visivi quando utili; Analisi/critica; Opere da riconoscere; Esercitazione di analisi; Esercitazione pratica artistica; Cosa sapere a fine capitolo; strumenti di appunti/quaderno.
+5. Capitoli/settimane con: Obiettivi; Dove studiare; Video essenziali; **Filosofia e idee del tempo**; Approfondimenti consigliati; Supporti visivi quando utili; Analisi/critica; Opere da riconoscere; Esercitazione di analisi; Esercitazione pratica artistica; Cosa sapere a fine capitolo; strumenti di appunti/quaderno.
 6. Verifica storico-visiva.
-7. Verifica critica.
-8. Portfolio pratico.
-9. Sintesi finale e criterio di completamento.
+7. **Linea del tempo Arte ↔ Filosofia**.
+8. Verifica critica.
+9. Portfolio pratico.
+10. Sintesi finale e criterio di completamento.
+
+## Regola di copertura dei periodi
+Se una settimana dichiara esplicitamente un confronto tra due periodi o stili, **entrambi devono essere realmente studiati prima dell'esercizio**. Non basta che il secondo compaia solo nell'opera da confrontare o in una domanda finale.
+
+Esempio guida: se si chiede **Classico vs Ellenismo**, il capitolo deve contenere almeno un materiale essenziale che spieghi l'Ellenismo, opere ellenistiche osservabili e il relativo contesto storico/filosofico. Il confronto non deve essere lasciato all'inferenza dello studente.
+
+Prima di chiudere un capitolo verificare sempre: «Ogni concetto richiesto negli esercizi e nella verifica è stato prima introdotto con materiale sufficiente?».
+
+## Filosofia e idee del tempo — regola permanente
+Ogni capitolo deve includere una sezione breve e selettiva **Filosofia e idee del tempo** con:
+- filosofi/scuole cronologicamente pertinenti;
+- 2–4 concetti chiave utili a comprendere il clima culturale;
+- almeno un riferimento puntuale studiabile quando il nesso è importante;
+- un'indicazione esplicita di **come usare** quel riferimento per guardare le opere;
+- distinzione fra influenza documentata e semplice confronto interpretativo.
+
+La sezione non deve diventare un secondo corso completo di filosofia. Nel primo strato serve a costruire una mappa parallela: nomi, successione, concetti e nessi fondamentali. Nei ritorni successivi si approfondiscono i filosofi davvero decisivi per estetica e arti.
+
+Esempi di linea progressiva da tenere presente: Socrate/Platone/Aristotele → scuole ellenistiche → neoplatonismo e pensiero cristiano → Agostino/Tommaso → Umanesimo e neoplatonismo rinascimentale → razionalismo/empirismo → Illuminismo/Kant → idealismo/Hegel → Marx/Nietzsche → Freud → fenomenologia/Benjamin/Heidegger e pensiero del Novecento, secondo pertinenza con i periodi artistici studiati.
 
 ## Fonti e criterio di selezione
 - Preferire materiale puntuale e realmente studiabile, non homepage generiche.
 - Italiano quando la qualità è adeguata; inglese quando il materiale è nettamente migliore.
 - **Smarthistory**: asse storico-visivo principale.
 - **Heilbrunn Timeline of Art History / The Met**: secondo asse strutturale, soprattutto per contesto cronologico-geografico, tecniche, oggetti e saggi collegati a opere reali.
-- **Treccani e testi italiani affidabili**: critica, teoria, metodo.
+- **Treccani e testi italiani affidabili**: critica, teoria, metodo e riferimenti filosofici quando adeguati.
 - **OpenLearn**: teoria trasversale quando aggiunge qualcosa; non duplicare una materia già coperta bene altrove.
 - **Musei e archivi visivi autorevoli**: supporto ad alta risoluzione per osservazione e riconoscimento; non trasformarli automaticamente in nuove letture obbligatorie.
 - **Web Gallery of Art / Google Arts & Culture**: supporti visivi, soprattutto per Medioevo/Rinascimento e opere osservabili in dettaglio; non fonti teoriche principali.
@@ -66,6 +88,7 @@ Lo stesso schema vale per `w1`, `w2`, `w3`, `w4`, `final` e mesi futuri.
 - Dominio: `https://arte.3colors.it`.
 - Homepage: `index.html`.
 - Ogni nuovo mese deve comparire nella homepage.
+- I link esterni del corso devono aprirsi in una nuova scheda, così la pagina di studio resta aperta.
 
 ## Firebase
 Progetto Firebase: `arthistory-658f3`.
@@ -97,7 +120,7 @@ Ogni mese renderizzato deve avere:
 - campo link foto/video/file;
 - campo feedback/revisione;
 - pulsante **Copia per revisione ChatGPT**;
-- layout comodo da tablet e telefono.
+- layout comodo da tablet e telefono, senza scorrimento orizzontale.
 
 ## Revisione AI
 Non inserire chiavi OpenAI/API nel frontend pubblico. Flusso attuale:
@@ -114,6 +137,8 @@ Gli esercizi devono tradurre problemi storico-artistici in pratica visiva/audiov
 - Riutilizzare confronti tra settimane per creare continuità.
 - Coprire più media quando sono storicamente decisivi: la Grecia non può ridursi alla sola scultura; pittura vascolare, disegno e narrazione sono parte essenziale del primo strato.
 - Il **Kritios Boy** è un passaggio essenziale perché rende visibile la transizione Arcaico → Classico prima del Doriforo.
+- **L'Ellenismo va studiato esplicitamente** prima di chiedere un confronto Classico → Ellenismo: contesto dopo Alessandro, ampliamento dei soggetti, pathos, teatralità, movimento, realismo e coinvolgimento dello spettatore.
+- La filosofia va mantenuta in parallelo alla cronologia artistica: per la Grecia classica Platone/Aristotele e il problema della mimesi; per l'Ellenismo stoicismo, epicureismo e altre scuole come contesto culturale, senza ridurre l'arte a illustrazione della filosofia.
 - Per Roma rendere esplicita la specificità architettonico-ingegneristica: arco, volta, cupola, calcestruzzo e costruzione dello spazio interno.
 - Il passaggio tardoantico/cristiano non va presentato come semplice decadenza del naturalismo.
 - Se una settimana comprime troppi secoli, dichiararne il carattere di ponte. Nel Mese 1 Romanico/Gotico sono un ponte selettivo verso Giotto e verranno ripresi nei successivi strati.
