@@ -41,6 +41,9 @@ Esempi di linea progressiva da tenere presente: Socrate/Platone/Aristotele → s
 
 ## Fonti e criterio di selezione
 - Preferire materiale puntuale e realmente studiabile, non homepage generiche.
+- **Non assegnare mai come lettura o approfondimento un intero syllabus, curated guide, corso, indice tematico o raccolta molto ampia.** Queste risorse possono essere usate internamente per trovare materiali, ma nel programma devono comparire solo le **1–2 pagine precise** realmente pertinenti alla settimana.
+- Evitare formule come “consulta selettivamente il syllabus”: la selezione deve essere fatta **prima**, nella progettazione del corso, non delegata allo studente.
+- Ogni link deve avere un carico proporzionato alla funzione: un “approfondimento consigliato” deve essere davvero affrontabile come singolo approfondimento, non contenere materiale paragonabile a un mese intero.
 - Italiano quando la qualità è adeguata; inglese quando il materiale è nettamente migliore.
 - **Smarthistory**: asse storico-visivo principale.
 - **Heilbrunn Timeline of Art History / The Met**: secondo asse strutturale, soprattutto per contesto cronologico-geografico, tecniche, oggetti e saggi collegati a opere reali.
@@ -51,7 +54,7 @@ Esempi di linea progressiva da tenere presente: Socrate/Platone/Aristotele → s
 - Libri: pochi e scelti. Non aggiungere un secondo manuale generale solo per aumentare la bibliografia.
 - Distinguere sempre **Essenziali**, **Approfondimenti consigliati** e **Supporti visivi**.
 - Un nuovo materiale entra solo se copre un buco, sostituisce una fonte peggiore o aggiunge un punto di vista realmente distinto.
-- Prima di pubblicare un mese, verificare i link esterni essenziali.
+- Prima di pubblicare un mese, verificare i link esterni essenziali e controllare che nessun link consigliato nasconda un carico di studio sproporzionato.
 
 ## Unica fonte canonica: niente doppia manutenzione
 `programma/mese-XX.md` è l'**unica fonte didattica canonica**.
@@ -144,6 +147,7 @@ Gli esercizi devono tradurre problemi storico-artistici in pratica visiva/audiov
 - Se una settimana comprime troppi secoli, dichiararne il carattere di ponte. Nel Mese 1 Romanico/Gotico sono un ponte selettivo verso Giotto e verranno ripresi nei successivi strati.
 - Graduare la difficoltà degli esercizi pratici; nella micro-sequenza di Giotto conta la chiarezza della relazione spaziale, non la complessità tecnica del montaggio.
 - Non aggiungere fonti solo perché interessanti: completezza significa coprire i nodi importanti, non accumulare link.
+- Non lasciare allo studente il lavoro di filtrare raccolte enormi: syllabus e guide generali sono strumenti di progettazione, non compiti di lettura.
 
 ## Stato attuale
 Il Mese 1 è migrato al modello a fonte unica: `mese-01.md` contiene i contenuti aggiornati; `mese.html` li rende operativi. I mesi successivi devono partire da questa architettura.
