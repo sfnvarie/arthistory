@@ -155,6 +155,19 @@ Roma eredita e rielabora la filosofia greca. Per il primo strato basta fissare a
 
 Non usare questa sezione per “spiegare” Augusto con Seneca: cronologicamente e storicamente sarebbe semplicistico. Usala per costruire la mappa del pensiero che accompagna l'espansione del mondo romano.
 
+### Letture filosofiche essenziali
+<!-- task:w2-phil1 -->
+- [ ] **Treccani — Filosofia romana** — https://www.treccani.it/enciclopedia/filosofia-romana_%28Storia-della-civilta-Europea%29/  
+  È la lettura-base della settimana: segui il passaggio dalla filosofia greca alla sua rielaborazione romana e fissa **Cicerone, Lucrezio, Seneca, Epitteto e Marco Aurelio**.
+
+<!-- task:w2-phil2 -->
+- [ ] **Treccani — Stoicismo** — https://www.treccani.it/enciclopedia/stoicismo/  
+  Concentrati sulla fase romana: **Seneca, Epitteto e Marco Aurelio**. Cerca soprattutto il rapporto fra ordine del cosmo, virtù, libertà interiore, controllo delle passioni e condotta pratica.
+
+### Lettura consigliata — non obbligatoria
+- **Treccani — Lucrezio: una scuola filosofica in forma di poesia** — https://www.treccani.it/enciclopedia/lucrezio-una-scuola-filosofica-in-forma-di-poesia_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/  
+  Utile per capire come l'epicureismo venga tradotto in cultura latina e per fissare il tema della liberazione dalla paura della morte attraverso la conoscenza della natura.
+
 ## Approfondimenti consigliati
 - **Ancient Roman Art and Architecture Syllabus** — https://smarthistory.org/curated-guide/ancient-roman-art-and-architecture-syllabus/ — usare selettivamente per Ara Pacis e Colonna Traiana.
 - **Treccani — Arte romana, Bianchi Bandinelli** — https://www.treccani.it/enciclopedia/arte-romana_%28Enciclopedia-dell%27-Arte-Antica%29/ — solo sezioni pertinenti.
