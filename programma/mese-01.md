@@ -98,7 +98,6 @@ Dopo Alessandro il mondo greco diventa più vasto e cosmopolita. In filosofia ac
 - **Aphrodite of Knidos / Capitoline Venus** — https://smarthistory.org/capitoline-venus-copy-of-the-aphrodite-of-knidos/ — nudo femminile monumentale, sguardo, esposizione e pudore.
 - **Parthenon frieze** — https://smarthistory.org/parthenon-frieze/
 - **Nike di Samotracia / Pergamo / Pugile in riposo**: usa il materiale sull'Ellenismo per osservare almeno uno di questi casi oltre al Laocoonte.
-- Heilbrunn Timeline: usare solo per collocare cronologicamente opere e tecniche, non come lettura aggiuntiva obbligatoria.
 
 ## Supporto visivo — non obbligatorio
 Per osservare dettagli e allenare il riconoscimento, usare immagini museali ad alta risoluzione quando disponibili. Non conta come attività da completare.
@@ -168,10 +167,11 @@ Non usare questa sezione per “spiegare” Augusto con Seneca: cronologicamente
 - **Treccani — Lucrezio: una scuola filosofica in forma di poesia** — https://www.treccani.it/enciclopedia/lucrezio-una-scuola-filosofica-in-forma-di-poesia_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/  
   Utile per capire come l'epicureismo venga tradotto in cultura latina e per fissare il tema della liberazione dalla paura della morte attraverso la conoscenza della natura.
 
-## Approfondimenti consigliati
-- **Ancient Roman Art and Architecture Syllabus** — https://smarthistory.org/curated-guide/ancient-roman-art-and-architecture-syllabus/ — usare selettivamente per Ara Pacis e Colonna Traiana.
-- **Treccani — Arte romana, Bianchi Bandinelli** — https://www.treccani.it/enciclopedia/arte-romana_%28Enciclopedia-dell%27-Arte-Antica%29/ — solo sezioni pertinenti.
-- **Heilbrunn Timeline / Italian Peninsula, 1–500 A.D.** — supporto cronologico, non lettura integrale.
+## Approfondimenti consigliati — puntuali, non syllabus
+- **Smarthistory — Ara Pacis Augustae** — https://smarthistory.org/ara-pacis/  
+  Un solo monumento per approfondire propaganda augustea, rituale, genealogia e costruzione visiva della Pax Romana.
+- **Smarthistory — Column of Trajan** — https://smarthistory.org/column-of-trajan/  
+  Un solo caso per approfondire narrazione continua, memoria pubblica, guerra, impero e rappresentazione del potere.
 
 ## Opere da riconoscere
 Ritratto repubblicano · Augusto di Prima Porta · Ara Pacis · Pantheon · Colonna Traiana
@@ -224,8 +224,7 @@ Tra III e V secolo il **neoplatonismo**, soprattutto con **Plotino**, rielabora 
 Per l'arte non va tradotto in una formula del tipo “fondo oro = neoplatonismo”. Il punto utile è diverso: capisci meglio perché un'immagine possa rinunciare alla profondità naturalistica per orientare lo sguardo verso una realtà non semplicemente fisica.
 
 ## Approfondimenti consigliati
-- **Medieval and Byzantine Art and Architecture Syllabus** — https://smarthistory.org/curated-guide/medieval-and-byzantine-art-and-architecture-syllabus/ — consultazione selettiva.
-- Heilbrunn Timeline: utile per collegare Roma tardoimperiale, Costantinopoli e mondo bizantino senza aggiungere un altro manuale.
+- **Nessun syllabus generale.** Se vuoi aggiungere un approfondimento in questa settimana, torna su una singola opera già presente — Hagia Sophia oppure San Vitale — e approfondisci quella, invece di aprire un intero percorso medievale/bizantino.
 - Per la linea filosofica: fissare **Plotino → Agostino**; l'approfondimento testuale verrà nei successivi strati.
 
 ## Opere da riconoscere
@@ -277,11 +276,12 @@ Nel pieno Medioevo la filosofia scolastica cerca di articolare il rapporto fra r
 
 Per ora non serve studiare un sistema filosofico completo: basta collocare **Agostino → scolastica → Tommaso** e capire che il Medioevo non è un vuoto fra antichità e Rinascimento, ma un enorme laboratorio di sintesi e trasformazione del pensiero antico.
 
-## Approfondimenti consigliati
-- **Un solo** approfondimento su Chartres oppure Sainte-Foy al primo giro.
-- Cimabue / Duccio dal syllabus medievale, soltanto se aiuta il confronto con Giotto.
-- **Google Arts & Culture / Cappella degli Scrovegni**: usare come supporto visivo ad alta definizione quando disponibile; non è attività obbligatoria.
-- **Web Gallery of Art**: supporto per confronto e riconoscimento di Cimabue, Duccio e Giotto; non è fonte teorica principale.
+## Approfondimenti consigliati — puntuali
+- **Smarthistory — Cimabue and Giotto compared** — https://smarthistory.org/cimabue-santa-trinita-madonna-and-giotto-ognissanti-madonna/  
+  È il confronto più utile per vedere concretamente cosa cambia in massa, spazio e presenza fisica delle figure.
+- **Smarthistory — Duccio, Maestà** — https://smarthistory.org/duccio-maesta/  
+  Usalo solo se vuoi aggiungere il versante senese al confronto con Giotto.
+- **Google Arts & Culture / Cappella degli Scrovegni** e **Web Gallery of Art** restano supporti visivi, non letture da completare.
 
 ## Opere da riconoscere
 Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna · Duccio, Maestà · Giotto, Cappella degli Scrovegni
