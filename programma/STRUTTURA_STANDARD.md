@@ -56,10 +56,16 @@ Esempi di linea progressiva da tenere presente: Socrate/Platone/Aristotele → s
 - Un nuovo materiale entra solo se copre un buco, sostituisce una fonte peggiore o aggiunge un punto di vista realmente distinto.
 - Prima di pubblicare un mese, verificare i link esterni essenziali e controllare che nessun link consigliato nasconda un carico di studio sproporzionato.
 
-## Unica fonte canonica: niente doppia manutenzione
-`programma/mese-XX.md` è l'**unica fonte didattica canonica**.
+## Tracciamento attività e date
+Tutte le attività concretamente svolgibili devono poter essere spuntate, comprese le **letture e gli approfondimenti consigliati**. La distinzione è funzionale:
+- le attività **essenziali** entrano nella percentuale di avanzamento;
+- le attività **facoltative/consigliate** hanno spunta e data ma **non modificano la percentuale**;
+- i semplici supporti visivi generici o strumenti di consultazione non sono attività e non richiedono checkbox, salvo che venga assegnata un'azione precisa.
 
-Non mantenere più due versioni indipendenti Markdown + HTML.
+Quando una checkbox viene selezionata, il renderer registra automaticamente la **data di completamento** e la mostra accanto all'attività. Se viene deselezionata, la data viene rimossa. Le date sono sincronizzate con Firebase insieme al resto dei progressi e servono a ricostruire il ritmo reale di studio.
+
+## Unica fonte canonica: niente doppia manutenzione
+`programma/mese-XX.md` è l'**unica fonte didattica canonica**. Non mantenere più due versioni indipendenti Markdown + HTML.
 
 ### Rendering operativo
 - `programma/mese.html` è il renderer comune riutilizzabile.
@@ -69,14 +75,21 @@ Non mantenere più due versioni indipendenti Markdown + HTML.
 - Per un nuovo mese si crea **solo** `mese-XX.md` e si aggiunge il link alla home. Non copiare il vecchio HTML.
 
 ### Marcatori nel Markdown
-Per rendere interattiva un'attività obbligatoria usare:
+Per un'attività **essenziale**, che entra nella percentuale:
 
 ```md
 <!-- task:w2-video1 -->
 - [ ] Titolo attività — link
 ```
 
-L'ID deve essere stabile nel tempo. Non rinumerare vecchi ID dopo che esistono progressi salvati.
+Per un'attività **consigliata/facoltativa**, tracciabile ma esclusa dalla percentuale:
+
+```md
+<!-- optional:w2-rec1 -->
+- [ ] Titolo approfondimento — link
+```
+
+Gli ID devono essere stabili nel tempo. Non rinumerare o riutilizzare vecchi ID dopo che esistono progressi salvati.
 
 Per inserire appunti + quaderno + stato + link + feedback usare alla fine di ogni capitolo:
 
@@ -97,11 +110,11 @@ Lo stesso schema vale per `w1`, `w2`, `w3`, `w4`, `final` e mesi futuri.
 Progetto Firebase: `arthistory-658f3`.
 Servizi usati: Firebase Authentication con Google + Cloud Firestore.
 
-Struttura Firestore:
-`users/{uid}/months/mese-XX`
+Struttura Firestore: `users/{uid}/months/mese-XX`.
 
 Il documento mensile contiene almeno:
 - `progress`;
+- `completionDates`;
 - `notes`;
 - `work`;
 - `statuses` (`todo`, `doing`, `done`, `reviewed`);
@@ -114,8 +127,9 @@ Le regole Firestore devono consentire lettura/scrittura solo all'utente autentic
 ## Esperienza utente
 Ogni mese renderizzato deve avere:
 - login Google + logout;
-- percentuale di avanzamento;
-- checkbox sincronizzate tra dispositivi;
+- percentuale di avanzamento delle sole attività essenziali;
+- checkbox sincronizzate tra dispositivi per attività essenziali e consigliate;
+- data di completamento visibile accanto a ogni attività spuntata;
 - fallback locale quando non autenticato;
 - appunti brevi con autosalvataggio;
 - editor ampio **Quaderno di lavoro**;
@@ -148,6 +162,7 @@ Gli esercizi devono tradurre problemi storico-artistici in pratica visiva/audiov
 - Graduare la difficoltà degli esercizi pratici; nella micro-sequenza di Giotto conta la chiarezza della relazione spaziale, non la complessità tecnica del montaggio.
 - Non aggiungere fonti solo perché interessanti: completezza significa coprire i nodi importanti, non accumulare link.
 - Non lasciare allo studente il lavoro di filtrare raccolte enormi: syllabus e guide generali sono strumenti di progettazione, non compiti di lettura.
+- Anche gli approfondimenti facoltativi devono essere tracciabili, ma non devono alterare la percentuale del percorso essenziale.
 
 ## Stato attuale
 Il Mese 1 è migrato al modello a fonte unica: `mese-01.md` contiene i contenuti aggiornati; `mese.html` li rende operativi. I mesi successivi devono partire da questa architettura.
