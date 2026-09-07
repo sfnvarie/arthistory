@@ -223,6 +223,10 @@ Ritratto repubblicano · Augusto di Prima Porta · Ara Pacis · Pantheon · Colo
 <!-- task:w3-read3 -->
 - [ ] **Treccani — L'eredità antica e la civiltà figurativa del cristianesimo** — https://www.treccani.it/enciclopedia/l-eredita-antica-e-la-civilta-figurativa-del-cristianesimo_%28Storia-della-civilta-Europea%29/
 
+<!-- task:w3-read4 -->
+- [ ] **Smarthistory — Sarcophagus of Junius Bassus** — https://smarthistory.org/sarcophagus-of-junius-bassus/  
+  Questa lettura introduce davvero l'opera prima che compaia fra quelle da riconoscere: osserva come temi cristiani, formule imperiali romane e stile classico convivano nello stesso oggetto.
+
 ## Video essenziali
 <!-- task:w3-video1 -->
 - [ ] **Hagia Sophia — Smarthistory** — https://smarthistory.org/hagia-sophia-istanbul/
@@ -235,8 +239,11 @@ Tra III e V secolo il **neoplatonismo**, soprattutto con **Plotino**, rielabora 
 
 Per l'arte non va tradotto in una formula del tipo “fondo oro = neoplatonismo”. Il punto utile è diverso: capisci meglio perché un'immagine possa rinunciare alla profondità naturalistica per orientare lo sguardo verso una realtà non semplicemente fisica.
 
+## Concetto necessario prima dell'esercizio: che cos'è un dittico
+Un **dittico** è una struttura composta da **due pannelli o due immagini concepiti per essere letti insieme**. Storicamente può essere un oggetto a due valve, spesso incernierate; nel nostro esercizio usiamo il termine in senso compositivo: due clip autonome che acquistano significato soprattutto nel confronto reciproco. Non è necessario conoscere adesso una storia completa dei dittici d'avorio: basta capire la logica del **due parti / un'unica relazione**.
+
 ## Approfondimenti consigliati
-In questa settimana non viene aggiunto un altro percorso generale: se vuoi approfondire, torna su **Hagia Sophia** oppure **San Vitale**, già presenti fra i materiali essenziali.
+In questa settimana non viene aggiunto un altro percorso generale: se vuoi approfondire, torna su **Hagia Sophia**, **San Vitale** oppure sul **Sarcofago di Giunio Basso**, già presenti fra i materiali essenziali.
 
 ## Opere da riconoscere
 Sarcofago di Giunio Basso · Arco di Costantino, rilievi · Hagia Sophia · Giustiniano a San Vitale · Teodora a San Vitale
@@ -247,11 +254,11 @@ Sarcofago di Giunio Basso · Arco di Costantino, rilievi · Hagia Sophia · Gius
 
 ## Esercitazione pratica artistica
 <!-- task:w3-practice -->
-- [ ] **Dittico audiovisivo — corpo / icona.** Stesso soggetto, due clip da 20 secondi. A: presenza fisica, tridimensionale, contingente. B: simbolica, frontale, sospesa. Usa composizione, movimento/immobilità, profondità, luce e suono.
+- [ ] **Due clip in forma di dittico — corpo / icona.** Stesso soggetto, due clip da 20 secondi concepite come una coppia. A: presenza fisica, tridimensionale, contingente. B: simbolica, frontale, sospesa. Usa composizione, movimento/immobilità, profondità, luce e suono.
 
 ## Cosa sapere a fine capitolo
 <!-- task:w3-check -->
-- [ ] So argomentare perché una figura piatta e frontale può essere una soluzione intenzionale e potente, non una versione tecnicamente inferiore del naturalismo classico, e so collocare Plotino e Agostino nella trasformazione del pensiero tardoantico.
+- [ ] So argomentare perché una figura piatta e frontale può essere una soluzione intenzionale e potente, non una versione tecnicamente inferiore del naturalismo classico; so leggere il Sarcofago di Giunio Basso come esempio di trasformazione della tradizione romana in contesto cristiano; so collocare Plotino e Agostino nella trasformazione del pensiero tardoantico e so spiegare che cosa significa “dittico” nel senso usato dall'esercizio.
 
 <!-- study-tools:w3 -->
 
@@ -272,11 +279,25 @@ Sarcofago di Giunio Basso · Arco di Costantino, rilievi · Hagia Sophia · Gius
 <!-- task:w4-read1 -->
 - [ ] **Smarthistory — Late Gothic art, an introduction** — https://smarthistory.org/introduction-to-late-gothic-art/
 
-<!-- task:w4-read2 -->
-- [ ] **Treccani — Giotto** — https://www.treccani.it/enciclopedia/giotto_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/
+<!-- task:w4-read4 -->
+- [ ] **Smarthistory — Romanesque art, an introduction** — https://smarthistory.org/a-beginners-guide-to-romanesque-art/  
+  Serve solo per fissare il ponte Romanico → Gotico: periodo, funzione delle chiese, pellegrinaggio, struttura e rapporto tra architettura e immagini.
 
-<!-- task:w4-read3 -->
-- [ ] **Treccani — Prospettiva** — https://www.treccani.it/enciclopedia/prospettiva_%28Enciclopedia-Italiana%29/ — leggere solo il passaggio dedicato a Giotto.
+<!-- task:w4-read5 -->
+- [ ] **Smarthistory — Church and Reliquary of Sainte-Foy, Conques** — https://smarthistory.org/church-and-reliquary-of-saintefoy-france/  
+  Leggila come caso concreto del Romanico: pellegrinaggio, reliquie, spazio della chiesa e funzione delle immagini.
+
+<!-- task:w4-read6 -->
+- [ ] **Smarthistory — Cathedral of Notre Dame, Chartres** — https://smarthistory.org/cathedral-of-notre-dame-de-chartres-part-1-of-3/  
+  Usala per fissare un caso concreto del Gotico e capire perché luce, altezza e struttura architettonica cambiano l'esperienza dello spazio.
+
+<!-- task:w4-read7 -->
+- [ ] **Smarthistory — Cimabue and Giotto compared** — https://smarthistory.org/cimabue-santa-trinita-madonna-and-giotto-ognissanti-madonna/  
+  Concentrati sul confronto diretto: massa, volume, trono, rapporto tra figure e costruzione dello spazio.
+
+<!-- task:w4-read8 -->
+- [ ] **Smarthistory — Giotto, The Ognissanti Madonna and Child Enthroned** — https://smarthistory.org/giotto-the-ognissanti-madonna/  
+  Fissa tre cose: peso fisico delle figure, modellazione luce/ombra e spazio più coerente. Le precedenti letture Treccani su Giotto e prospettiva sono tolte dal primo strato.
 
 ## Video essenziali
 <!-- task:w4-video1 -->
@@ -288,10 +309,6 @@ Nel pieno Medioevo la filosofia scolastica cerca di articolare il rapporto fra r
 Per ora non serve studiare un sistema filosofico completo: basta collocare **Agostino → scolastica → Tommaso** e capire che il Medioevo non è un vuoto fra antichità e Rinascimento, ma un enorme laboratorio di sintesi e trasformazione del pensiero antico.
 
 ## Approfondimenti consigliati — puntuali
-<!-- optional:w4-rec1 -->
-- [ ] **Smarthistory — Cimabue and Giotto compared** — https://smarthistory.org/cimabue-santa-trinita-madonna-and-giotto-ognissanti-madonna/  
-  È il confronto più utile per vedere concretamente cosa cambia in massa, spazio e presenza fisica delle figure.
-
 <!-- optional:w4-rec2 -->
 - [ ] **Smarthistory — Duccio, Maestà** — https://smarthistory.org/duccio-maesta/  
   Usalo solo se vuoi aggiungere il versante senese al confronto con Giotto.
@@ -311,7 +328,7 @@ Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna 
 
 ## Cosa sapere a fine capitolo
 <!-- task:w4-check -->
-- [ ] So spiegare con esempi concreti perché Giotto è una svolta senza ridurlo alla formula “inventa la prospettiva”, so dire in che senso Romanico e Gotico sono qui soltanto un ponte selettivo e so collocare Agostino, scolastica e Tommaso nella linea filosofica generale.
+- [ ] So spiegare con esempi concreti perché Giotto è una svolta senza ridurlo alla formula “inventa la prospettiva”, so distinguere in prima approssimazione Romanico e Gotico attraverso almeno Sainte-Foy e Chartres, so dire in che senso questi periodi sono qui soltanto un ponte selettivo e so collocare Agostino, scolastica e Tommaso nella linea filosofica generale.
 
 <!-- study-tools:w4 -->
 
