@@ -14,7 +14,7 @@ Costruire una prima mappa storica, visiva e critica dall'arte greca a Giotto. Il
 
 ## Alla fine del mese dovresti sapere
 - Orientarti nella sequenza: Grecia arcaica/classica/ellenistica → Roma repubblicana/imperiale → tardoantico e primo Cristianesimo → Bisanzio → Romanico/Gotico → Giotto.
-- Riconoscere almeno 16 delle 22 opere-cardine indicate e collocarle nel periodo corretto.
+- Riconoscere almeno 13 delle 17 opere-cardine **essenziali** indicate e collocarle nel periodo corretto.
 - Distinguere idealizzazione, naturalismo, contrapposto, narrazione figurativa, verismo, pathos, teatralità, gerarchia visiva, simbolo, frontalità, massa, spazio architettonico e spazio narrativo.
 - Analizzare un'opera distinguendo almeno: cosa vedo; come è costruita; quale funzione svolge; quale idea del mondo/spettatore implica.
 - Confrontare opere di periodi diversi spiegando cosa cambia nel corpo, nello spazio, nella funzione dell'immagine e nel rapporto con chi guarda.
@@ -110,8 +110,10 @@ Dopo Alessandro il mondo greco diventa più vasto e cosmopolita. In filosofia ac
 ## Supporto visivo — non obbligatorio
 Per osservare dettagli e allenare il riconoscimento, usare immagini museali ad alta risoluzione quando disponibili. Non conta come attività da completare.
 
-## Opere da riconoscere
-Kouros · Kritios Boy · Doriforo · Partenone · Afrodite di Cnido · Laocoonte · Exekias, **Achille e Aiace che giocano ai dadi**
+## Opere essenziali da riconoscere
+Kouros · Kritios Boy · Doriforo · Partenone · Laocoonte · Exekias, **Achille e Aiace che giocano ai dadi**
+
+**Opere facoltative:** Afrodite di Cnido/Capitoline Venus e le altre opere degli approfondimenti. Non vengono richieste nelle verifiche essenziali se non hai svolto il relativo approfondimento.
 
 ## Esercitazione di analisi
 <!-- task:w1-analysis -->
@@ -185,8 +187,10 @@ Non usare questa sezione per “spiegare” Augusto con Seneca: cronologicamente
 - [ ] **Smarthistory — Column of Trajan** — https://smarthistory.org/column-of-trajan/  
   Un solo caso per approfondire narrazione continua, memoria pubblica, guerra, impero e rappresentazione del potere.
 
-## Opere da riconoscere
-Ritratto repubblicano · Augusto di Prima Porta · Ara Pacis · Pantheon · Colonna Traiana
+## Opere essenziali da riconoscere
+Ritratto repubblicano · Augusto di Prima Porta · Pantheon
+
+**Opere facoltative:** Ara Pacis · Colonna Traiana. Entrano solo se hai svolto i relativi approfondimenti e non sono richieste nella verifica essenziale.
 
 ## Esercitazione di analisi
 <!-- task:w2-analysis -->
@@ -245,8 +249,10 @@ Un **dittico** è una struttura composta da **due pannelli o due immagini concep
 ## Approfondimenti consigliati
 In questa settimana non viene aggiunto un altro percorso generale: se vuoi approfondire, torna su **Hagia Sophia**, **San Vitale** oppure sul **Sarcofago di Giunio Basso**, già presenti fra i materiali essenziali.
 
-## Opere da riconoscere
-Sarcofago di Giunio Basso · Arco di Costantino, rilievi · Hagia Sophia · Giustiniano a San Vitale · Teodora a San Vitale
+## Opere essenziali da riconoscere
+Sarcofago di Giunio Basso · Hagia Sophia · Giustiniano a San Vitale · Teodora a San Vitale
+
+**Non viene richiesto l'Arco di Costantino nella verifica essenziale**, perché in questo primo strato non ha un materiale autonomo sufficiente.
 
 ## Esercitazione di analisi
 <!-- task:w3-analysis -->
@@ -315,12 +321,14 @@ Per ora non serve studiare un sistema filosofico completo: basta collocare **Ago
 
 **Google Arts & Culture / Cappella degli Scrovegni** e **Web Gallery of Art** restano supporti visivi, non letture da completare.
 
-## Opere da riconoscere
-Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna · Duccio, Maestà · Giotto, Cappella degli Scrovegni
+## Opere essenziali da riconoscere
+Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna · Giotto, Cappella degli Scrovegni
+
+**Opera facoltativa:** Duccio, Maestà. Non viene richiesta nella verifica essenziale se non hai svolto l'approfondimento.
 
 ## Esercitazione di analisi
 <!-- task:w4-analysis -->
-- [ ] **Cimabue/Duccio vs Giotto.** Scegli una Madonna in Maestà e una scena degli Scrovegni. Analizza massa, spazio, gesto, sguardo, emozione e rapporto fra figure. Massimo 400 parole.
+- [ ] **Cimabue vs Giotto.** Confronta la Madonna di Cimabue introdotta nella lettura essenziale con una scena degli Scrovegni. Analizza massa, spazio, gesto, sguardo, emozione e rapporto fra figure. Massimo 400 parole. **Se hai svolto l'approfondimento su Duccio, puoi usare Duccio al posto di Cimabue**, ma non è richiesto.
 
 ## Esercitazione pratica artistica
 <!-- task:w4-practice -->
@@ -341,7 +349,7 @@ Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna 
 - [ ] Costruisco a memoria la linea: Grecia arcaica/classica/ellenistica → Roma → tardoantico/cristianesimo → Bisanzio → Romanico/Gotico → Giotto.
 
 <!-- task:final2 -->
-- [ ] Da una selezione casuale delle 22 opere ne riconosco almeno 16 e indico periodo + una ragione della loro importanza.
+- [ ] Da una selezione casuale delle **17 opere essenziali realmente introdotte** ne riconosco almeno 13 e indico periodo + una ragione della loro importanza. Le opere presenti solo negli approfondimenti facoltativi non entrano nella prova essenziale.
 
 <!-- task:final3 -->
 - [ ] Spiego oralmente in circa 5 minuti le grandi trasformazioni: corpo arcaico → equilibrio classico → pathos/varietà ellenistica → immagine e spazio romano → immagine simbolica cristiano-bizantina → ritorno di massa/spazio/narrazione con Giotto.
@@ -359,6 +367,6 @@ Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna 
 - [ ] Seleziono i due esperimenti pratici più significativi del mese e aggiungo per ciascuno: problema storico → scelta formale → risultato → cosa cambierei.
 
 ## Criterio di completamento
-Il mese è concluso quando sono state svolte le letture e i video essenziali, si sa orientarsi nella sequenza storica, si riconoscono almeno 16 opere su 22, sono state completate le quattro esercitazioni pratiche, **si sa spiegare esplicitamente il passaggio Classico → Ellenismo** e si riesce a ricostruire la linea filosofica essenziale del mese. Gli approfondimenti consigliati sono tracciabili con spunta e data, ma **non entrano nella percentuale di avanzamento essenziale**.
+Il mese è concluso quando sono state svolte le letture e i video essenziali, si sa orientarsi nella sequenza storica, si riconoscono almeno **13 opere essenziali su 17**, sono state completate le quattro esercitazioni pratiche, **si sa spiegare esplicitamente il passaggio Classico → Ellenismo** e si riesce a ricostruire la linea filosofica essenziale del mese. Gli approfondimenti consigliati sono tracciabili con spunta e data, ma **non entrano nella percentuale di avanzamento essenziale né introducono prerequisiti obbligatori per esercizi o verifiche**.
 
 <!-- study-tools:final -->
