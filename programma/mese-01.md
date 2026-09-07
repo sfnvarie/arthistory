@@ -26,6 +26,9 @@ Costruire una prima mappa storica, visiva e critica dall'arte greca a Giotto. Il
 ## Libro di accompagnamento
 **E. H. Gombrich, _La storia dell'arte_** — consigliato, non obbligatorio. Nel primo mese leggere soltanto i capitoli corrispondenti a Grecia, Roma, arte cristiana/medievale e Giotto.
 
+<!-- optional:m1-gombrich -->
+- [ ] **Gombrich — capitoli del Mese 1 completati** (Grecia, Roma, arte cristiana/medievale e Giotto).
+
 **Panofsky non ancora.** Verrà inserito nel mese sul Rinascimento, quando prospettiva e spazio diventeranno un problema centrale.
 
 ## Secondo asse cronologico-visivo
@@ -95,9 +98,14 @@ Dopo Alessandro il mondo greco diventa più vasto e cosmopolita. In filosofia ac
   Concentrati su Zenone/stoicismo ed Epicuro. Serve soprattutto a costruire la cronologia parallela e a capire il nuovo contesto culturale ellenistico.
 
 ## Approfondimenti consigliati — non contano nel progresso
-- **Aphrodite of Knidos / Capitoline Venus** — https://smarthistory.org/capitoline-venus-copy-of-the-aphrodite-of-knidos/ — nudo femminile monumentale, sguardo, esposizione e pudore.
-- **Parthenon frieze** — https://smarthistory.org/parthenon-frieze/
-- **Nike di Samotracia / Pergamo / Pugile in riposo**: usa il materiale sull'Ellenismo per osservare almeno uno di questi casi oltre al Laocoonte.
+<!-- optional:w1-rec1 -->
+- [ ] **Aphrodite of Knidos / Capitoline Venus** — https://smarthistory.org/capitoline-venus-copy-of-the-aphrodite-of-knidos/ — nudo femminile monumentale, sguardo, esposizione e pudore.
+
+<!-- optional:w1-rec2 -->
+- [ ] **Parthenon frieze** — https://smarthistory.org/parthenon-frieze/
+
+<!-- optional:w1-rec3 -->
+- [ ] **Nike di Samotracia / Pergamo / Pugile in riposo** — osservane almeno uno usando il materiale sull'Ellenismo.
 
 ## Supporto visivo — non obbligatorio
 Per osservare dettagli e allenare il riconoscimento, usare immagini museali ad alta risoluzione quando disponibili. Non conta come attività da completare.
@@ -164,13 +172,17 @@ Non usare questa sezione per “spiegare” Augusto con Seneca: cronologicamente
   Concentrati sulla fase romana: **Seneca, Epitteto e Marco Aurelio**. Cerca soprattutto il rapporto fra ordine del cosmo, virtù, libertà interiore, controllo delle passioni e condotta pratica.
 
 ### Lettura consigliata — non obbligatoria
-- **Treccani — Lucrezio: una scuola filosofica in forma di poesia** — https://www.treccani.it/enciclopedia/lucrezio-una-scuola-filosofica-in-forma-di-poesia_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/  
+<!-- optional:w2-philrec1 -->
+- [ ] **Treccani — Lucrezio: una scuola filosofica in forma di poesia** — https://www.treccani.it/enciclopedia/lucrezio-una-scuola-filosofica-in-forma-di-poesia_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/  
   Utile per capire come l'epicureismo venga tradotto in cultura latina e per fissare il tema della liberazione dalla paura della morte attraverso la conoscenza della natura.
 
 ## Approfondimenti consigliati — puntuali, non syllabus
-- **Smarthistory — Ara Pacis Augustae** — https://smarthistory.org/ara-pacis/  
+<!-- optional:w2-rec1 -->
+- [ ] **Smarthistory — Ara Pacis Augustae** — https://smarthistory.org/ara-pacis/  
   Un solo monumento per approfondire propaganda augustea, rituale, genealogia e costruzione visiva della Pax Romana.
-- **Smarthistory — Column of Trajan** — https://smarthistory.org/column-of-trajan/  
+
+<!-- optional:w2-rec2 -->
+- [ ] **Smarthistory — Column of Trajan** — https://smarthistory.org/column-of-trajan/  
   Un solo caso per approfondire narrazione continua, memoria pubblica, guerra, impero e rappresentazione del potere.
 
 ## Opere da riconoscere
@@ -224,8 +236,7 @@ Tra III e V secolo il **neoplatonismo**, soprattutto con **Plotino**, rielabora 
 Per l'arte non va tradotto in una formula del tipo “fondo oro = neoplatonismo”. Il punto utile è diverso: capisci meglio perché un'immagine possa rinunciare alla profondità naturalistica per orientare lo sguardo verso una realtà non semplicemente fisica.
 
 ## Approfondimenti consigliati
-- **Nessun syllabus generale.** Se vuoi aggiungere un approfondimento in questa settimana, torna su una singola opera già presente — Hagia Sophia oppure San Vitale — e approfondisci quella, invece di aprire un intero percorso medievale/bizantino.
-- Per la linea filosofica: fissare **Plotino → Agostino**; l'approfondimento testuale verrà nei successivi strati.
+In questa settimana non viene aggiunto un altro percorso generale: se vuoi approfondire, torna su **Hagia Sophia** oppure **San Vitale**, già presenti fra i materiali essenziali.
 
 ## Opere da riconoscere
 Sarcofago di Giunio Basso · Arco di Costantino, rilievi · Hagia Sophia · Giustiniano a San Vitale · Teodora a San Vitale
@@ -277,11 +288,15 @@ Nel pieno Medioevo la filosofia scolastica cerca di articolare il rapporto fra r
 Per ora non serve studiare un sistema filosofico completo: basta collocare **Agostino → scolastica → Tommaso** e capire che il Medioevo non è un vuoto fra antichità e Rinascimento, ma un enorme laboratorio di sintesi e trasformazione del pensiero antico.
 
 ## Approfondimenti consigliati — puntuali
-- **Smarthistory — Cimabue and Giotto compared** — https://smarthistory.org/cimabue-santa-trinita-madonna-and-giotto-ognissanti-madonna/  
+<!-- optional:w4-rec1 -->
+- [ ] **Smarthistory — Cimabue and Giotto compared** — https://smarthistory.org/cimabue-santa-trinita-madonna-and-giotto-ognissanti-madonna/  
   È il confronto più utile per vedere concretamente cosa cambia in massa, spazio e presenza fisica delle figure.
-- **Smarthistory — Duccio, Maestà** — https://smarthistory.org/duccio-maesta/  
+
+<!-- optional:w4-rec2 -->
+- [ ] **Smarthistory — Duccio, Maestà** — https://smarthistory.org/duccio-maesta/  
   Usalo solo se vuoi aggiungere il versante senese al confronto con Giotto.
-- **Google Arts & Culture / Cappella degli Scrovegni** e **Web Gallery of Art** restano supporti visivi, non letture da completare.
+
+**Google Arts & Culture / Cappella degli Scrovegni** e **Web Gallery of Art** restano supporti visivi, non letture da completare.
 
 ## Opere da riconoscere
 Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna · Duccio, Maestà · Giotto, Cappella degli Scrovegni
@@ -327,6 +342,6 @@ Sainte-Foy, Conques · Cattedrale di Chartres · Cimabue, Santa Trinita Madonna 
 - [ ] Seleziono i due esperimenti pratici più significativi del mese e aggiungo per ciascuno: problema storico → scelta formale → risultato → cosa cambierei.
 
 ## Criterio di completamento
-Il mese è concluso quando sono state svolte le letture e i video essenziali, si sa orientarsi nella sequenza storica, si riconoscono almeno 16 opere su 22, sono state completate le quattro esercitazioni pratiche, **si sa spiegare esplicitamente il passaggio Classico → Ellenismo** e si riesce a ricostruire la linea filosofica essenziale del mese. Gli approfondimenti consigliati e i supporti visivi non sono obbligatori.
+Il mese è concluso quando sono state svolte le letture e i video essenziali, si sa orientarsi nella sequenza storica, si riconoscono almeno 16 opere su 22, sono state completate le quattro esercitazioni pratiche, **si sa spiegare esplicitamente il passaggio Classico → Ellenismo** e si riesce a ricostruire la linea filosofica essenziale del mese. Gli approfondimenti consigliati sono tracciabili con spunta e data, ma **non entrano nella percentuale di avanzamento essenziale**.
 
 <!-- study-tools:final -->
