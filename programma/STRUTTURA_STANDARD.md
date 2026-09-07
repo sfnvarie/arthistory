@@ -25,9 +25,21 @@ Se una settimana dichiara esplicitamente un confronto tra due periodi o stili, *
 
 La stessa regola vale per **opere, tipologie e termini tecnici**: nessuna opera può comparire fra le “Opere da riconoscere”, in un esercizio o in una verifica senza essere stata prima introdotta da almeno un materiale preciso oppure da una spiegazione esplicita sufficiente. Se un esercizio usa parole come dittico, polittico, reliquiario, predella, iconostasi, trompe-l'œil ecc., il termine deve essere già stato spiegato prima della consegna.
 
+### Regola zero dei prerequisiti
+**Un esercizio, una verifica o una voce “Cosa sapere” può chiedere esclusivamente contenuti già introdotti prima attraverso materiale essenziale o spiegazione esplicita sufficiente.** Non sono ammessi prerequisiti impliciti.
+
+In particolare:
+- una **lettura facoltativa/consigliata non può mai essere necessaria** per svolgere un esercizio essenziale o superare una verifica essenziale;
+- se un'opera compare solo in un approfondimento facoltativo, deve restare fuori dal repertorio essenziale da riconoscere e dalle verifiche, salvo offrire esplicitamente un'alternativa già studiata;
+- se un esercizio propone una variante basata su materiale facoltativo, la variante va indicata chiaramente come facoltativa e deve esistere una versione completa dell'esercizio basata solo su materiale essenziale;
+- termini, tecniche, formati, oggetti e concetti devono essere spiegati **prima** della consegna, non dentro la consegna stessa;
+- la verifica finale deve essere costruita solo sul repertorio essenziale realmente introdotto, non sul totale delle opere nominate nel mese.
+
 Esempio guida: se si chiede **Classico vs Ellenismo**, il capitolo deve contenere almeno un materiale essenziale che spieghi l'Ellenismo, opere ellenistiche osservabili e il relativo contesto storico/filosofico. Il confronto non deve essere lasciato all'inferenza dello studente.
 
 Prima di chiudere un capitolo verificare sempre: «Ogni concetto, opera e termine richiesto negli esercizi e nella verifica è stato prima introdotto con materiale sufficiente?».
+
+Prima di pubblicare un mese eseguire anche questo controllo finale: **per ogni esercizio e verifica, risalire all'indietro e indicare mentalmente il materiale essenziale che introduce ciascun elemento richiesto. Se non esiste, aggiungerlo oppure togliere quella richiesta.**
 
 ## Filosofia e idee del tempo — regola permanente
 Ogni capitolo deve includere una sezione breve e selettiva **Filosofia e idee del tempo** con:
@@ -164,6 +176,8 @@ Gli esercizi devono tradurre problemi storico-artistici in pratica visiva/audiov
 - Il passaggio tardoantico/cristiano non va presentato come semplice decadenza del naturalismo.
 - Un'opera elencata fra quelle da riconoscere deve essere stata prima realmente presentata; non basta che il suo nome compaia incidentalmente in una lettura generale.
 - Un termine usato in una consegna deve essere definito prima della consegna. L'esercizio non deve diventare il luogo in cui lo studente scopre per la prima volta il significato del termine.
+- Una lettura facoltativa non può introdurre un prerequisito necessario per un esercizio o una verifica essenziale.
+- Le verifiche devono usare solo il repertorio essenziale realmente introdotto; le opere facoltative restano fuori salvo variante dichiarata facoltativa.
 - Se una settimana comprime troppi secoli, dichiararne il carattere di ponte. Nel Mese 1 Romanico/Gotico sono un ponte selettivo verso Giotto e verranno ripresi nei successivi strati.
 - Graduare la difficoltà degli esercizi pratici; nella micro-sequenza di Giotto conta la chiarezza della relazione spaziale, non la complessità tecnica del montaggio.
 - Non aggiungere fonti solo perché interessanti: completezza significa coprire i nodi importanti, non accumulare link.
