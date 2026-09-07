@@ -20,12 +20,14 @@ Ogni mese deve contenere:
 9. Portfolio pratico.
 10. Sintesi finale e criterio di completamento.
 
-## Regola di copertura dei periodi
+## Regola di copertura dei periodi, opere e concetti
 Se una settimana dichiara esplicitamente un confronto tra due periodi o stili, **entrambi devono essere realmente studiati prima dell'esercizio**. Non basta che il secondo compaia solo nell'opera da confrontare o in una domanda finale.
+
+La stessa regola vale per **opere, tipologie e termini tecnici**: nessuna opera può comparire fra le “Opere da riconoscere”, in un esercizio o in una verifica senza essere stata prima introdotta da almeno un materiale preciso oppure da una spiegazione esplicita sufficiente. Se un esercizio usa parole come dittico, polittico, reliquiario, predella, iconostasi, trompe-l'œil ecc., il termine deve essere già stato spiegato prima della consegna.
 
 Esempio guida: se si chiede **Classico vs Ellenismo**, il capitolo deve contenere almeno un materiale essenziale che spieghi l'Ellenismo, opere ellenistiche osservabili e il relativo contesto storico/filosofico. Il confronto non deve essere lasciato all'inferenza dello studente.
 
-Prima di chiudere un capitolo verificare sempre: «Ogni concetto richiesto negli esercizi e nella verifica è stato prima introdotto con materiale sufficiente?».
+Prima di chiudere un capitolo verificare sempre: «Ogni concetto, opera e termine richiesto negli esercizi e nella verifica è stato prima introdotto con materiale sufficiente?».
 
 ## Filosofia e idee del tempo — regola permanente
 Ogni capitolo deve includere una sezione breve e selettiva **Filosofia e idee del tempo** con:
@@ -41,13 +43,15 @@ Esempi di linea progressiva da tenere presente: Socrate/Platone/Aristotele → s
 
 ## Fonti e criterio di selezione
 - Preferire materiale puntuale e realmente studiabile, non homepage generiche.
+- Nel **primo strato** privilegiare fonti introduttive che costruiscano una mappa chiara. Una fonte autorevole ma enciclopedica, molto densa di nomi e riferimenti non ancora studiati, va rimandata agli strati successivi oppure ridotta a un estratto preciso.
+- **Treccani non è automaticamente una lettura essenziale**: usarla solo quando la voce o il passaggio sono davvero accessibili nel punto del percorso in cui compaiono. Se presuppone troppe conoscenze pregresse, sostituirla con una fonte più introduttiva.
 - **Non assegnare mai come lettura o approfondimento un intero syllabus, curated guide, corso, indice tematico o raccolta molto ampia.** Queste risorse possono essere usate internamente per trovare materiali, ma nel programma devono comparire solo le **1–2 pagine precise** realmente pertinenti alla settimana.
 - Evitare formule come “consulta selettivamente il syllabus”: la selezione deve essere fatta **prima**, nella progettazione del corso, non delegata allo studente.
 - Ogni link deve avere un carico proporzionato alla funzione: un “approfondimento consigliato” deve essere davvero affrontabile come singolo approfondimento, non contenere materiale paragonabile a un mese intero.
 - Italiano quando la qualità è adeguata; inglese quando il materiale è nettamente migliore.
 - **Smarthistory**: asse storico-visivo principale.
 - **Heilbrunn Timeline of Art History / The Met**: secondo asse strutturale, soprattutto per contesto cronologico-geografico, tecniche, oggetti e saggi collegati a opere reali.
-- **Treccani e testi italiani affidabili**: critica, teoria, metodo e riferimenti filosofici quando adeguati.
+- **Treccani e testi italiani affidabili**: critica, teoria, metodo e riferimenti filosofici quando adeguati al livello del capitolo.
 - **OpenLearn**: teoria trasversale quando aggiunge qualcosa; non duplicare una materia già coperta bene altrove.
 - **Musei e archivi visivi autorevoli**: supporto ad alta risoluzione per osservazione e riconoscimento; non trasformarli automaticamente in nuove letture obbligatorie.
 - **Web Gallery of Art / Google Arts & Culture**: supporti visivi, soprattutto per Medioevo/Rinascimento e opere osservabili in dettaglio; non fonti teoriche principali.
@@ -158,10 +162,13 @@ Gli esercizi devono tradurre problemi storico-artistici in pratica visiva/audiov
 - La filosofia va mantenuta in parallelo alla cronologia artistica: per la Grecia classica Platone/Aristotele e il problema della mimesi; per l'Ellenismo stoicismo, epicureismo e altre scuole come contesto culturale, senza ridurre l'arte a illustrazione della filosofia.
 - Per Roma rendere esplicita la specificità architettonico-ingegneristica: arco, volta, cupola, calcestruzzo e costruzione dello spazio interno.
 - Il passaggio tardoantico/cristiano non va presentato come semplice decadenza del naturalismo.
+- Un'opera elencata fra quelle da riconoscere deve essere stata prima realmente presentata; non basta che il suo nome compaia incidentalmente in una lettura generale.
+- Un termine usato in una consegna deve essere definito prima della consegna. L'esercizio non deve diventare il luogo in cui lo studente scopre per la prima volta il significato del termine.
 - Se una settimana comprime troppi secoli, dichiararne il carattere di ponte. Nel Mese 1 Romanico/Gotico sono un ponte selettivo verso Giotto e verranno ripresi nei successivi strati.
 - Graduare la difficoltà degli esercizi pratici; nella micro-sequenza di Giotto conta la chiarezza della relazione spaziale, non la complessità tecnica del montaggio.
 - Non aggiungere fonti solo perché interessanti: completezza significa coprire i nodi importanti, non accumulare link.
 - Non lasciare allo studente il lavoro di filtrare raccolte enormi: syllabus e guide generali sono strumenti di progettazione, non compiti di lettura.
+- Nel primo strato, se una fonte enciclopedica rende più difficile costruire la mappa invece di chiarirla, va sostituita anche se è autorevole.
 - Anche gli approfondimenti facoltativi devono essere tracciabili, ma non devono alterare la percentuale del percorso essenziale.
 
 ## Stato attuale
