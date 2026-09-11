@@ -243,6 +243,11 @@ Tra III e V secolo il **neoplatonismo**, soprattutto con **Plotino**, rielabora 
 
 Per l'arte non va tradotto in una formula del tipo “fondo oro = neoplatonismo”. Il punto utile è diverso: capisci meglio perché un'immagine possa rinunciare alla profondità naturalistica per orientare lo sguardo verso una realtà non semplicemente fisica.
 
+### Lettura filosofica essenziale
+<!-- task:w3-phil1 -->
+- [ ] **Rai Cultura — Riccardo Chiaradonna, Plotino** — https://www.raicultura.it/filosofia/articoli/2019/01/Riccardo-Chiaradonna-Plotino-036418b6-843c-4b88-941e-2228b9d06246.html  
+  Fissa tre punti: rapporto fra sensibile e intelligibile, gerarchia dell'essere e posizione di Plotino nella trasformazione della filosofia antica. Poi collega cronologicamente Plotino ad Agostino senza trasformare il rapporto in una causalità diretta sulle immagini.
+
 ## Concetto necessario prima dell'esercizio: che cos'è un dittico
 Un **dittico** è una struttura composta da **due pannelli o due immagini concepiti per essere letti insieme**. Storicamente può essere un oggetto a due valve, spesso incernierate; nel nostro esercizio usiamo il termine in senso compositivo: due clip autonome che acquistano significato soprattutto nel confronto reciproco. Non è necessario conoscere adesso una storia completa dei dittici d'avorio: basta capire la logica del **due parti / un'unica relazione**.
 
@@ -283,7 +288,8 @@ Sarcofago di Giunio Basso · Hagia Sophia · Giustiniano a San Vitale · Teodora
 
 ## Dove studiare — letture essenziali
 <!-- task:w4-read1 -->
-- [ ] **Smarthistory — Late Gothic art, an introduction** — https://smarthistory.org/introduction-to-late-gothic-art/
+- [ ] **Bertelli–Briganti–Giuliano, _Storia dell’arte italiana_, vol. I, pp. 424–434 — Il gotico nell’architettura.**  
+  Concentrati su importazione degli elementi gotici, tecnica costruttiva, versione italiana del linguaggio gotico e cantiere della cattedrale. È il controcampo italiano al caso di Chartres.
 
 <!-- task:w4-read4 -->
 - [ ] **Smarthistory — Romanesque art, an introduction** — https://smarthistory.org/a-beginners-guide-to-romanesque-art/  
@@ -298,12 +304,12 @@ Sarcofago di Giunio Basso · Hagia Sophia · Giustiniano a San Vitale · Teodora
   Usala per fissare un caso concreto del Gotico e capire perché luce, altezza e struttura architettonica cambiano l'esperienza dello spazio.
 
 <!-- task:w4-read7 -->
-- [ ] **Smarthistory — Cimabue and Giotto compared** — https://smarthistory.org/cimabue-santa-trinita-madonna-and-giotto-ognissanti-madonna/  
-  Concentrati sul confronto diretto: massa, volume, trono, rapporto tra figure e costruzione dello spazio.
+- [ ] **Bertelli–Briganti–Giuliano, _Storia dell’arte italiana_, vol. I, pp. 454–460 — La pittura italiana del Duecento.**  
+  Segui il passaggio fino a **Cimabue e il superamento del classicismo bizantino**: è la preparazione diretta al confronto con Giotto.
 
 <!-- task:w4-read8 -->
-- [ ] **Smarthistory — Giotto, The Ognissanti Madonna and Child Enthroned** — https://smarthistory.org/giotto-the-ognissanti-madonna/  
-  Fissa tre cose: peso fisico delle figure, modellazione luce/ombra e spazio più coerente. Le precedenti letture Treccani su Giotto e prospettiva sono tolte dal primo strato.
+- [ ] **Bertelli–Briganti–Giuliano, _Storia dell’arte italiana_, vol. II, pp. 16–30 — Giotto.**  
+  Assisi, testimonianze del tempo, Firenze/Roma/Padova, Cappella degli Scrovegni e ultima fase. È la lettura italiana principale della settimana su Giotto.
 
 ## Video essenziali
 <!-- task:w4-video1 -->
@@ -313,6 +319,11 @@ Sarcofago di Giunio Basso · Hagia Sophia · Giustiniano a San Vitale · Teodora
 Nel pieno Medioevo la filosofia scolastica cerca di articolare il rapporto fra ragione e fede. Il nome da fissare in questo primo strato è **Tommaso d'Aquino**, fondamentale per la grande ricezione medievale di Aristotele. Prima di lui resta essenziale la lunga eredità agostiniana; accanto alla filosofia, per capire l'arte medievale bisogna ricordare che teologia, liturgia e organizzazione simbolica dello spazio sono inseparabili dal funzionamento delle immagini.
 
 Per ora non serve studiare un sistema filosofico completo: basta collocare **Agostino → scolastica → Tommaso** e capire che il Medioevo non è un vuoto fra antichità e Rinascimento, ma un enorme laboratorio di sintesi e trasformazione del pensiero antico.
+
+### Lettura filosofica essenziale
+<!-- task:w4-phil1 -->
+- [ ] **Rai Cultura — Roberta De Monticelli, Agostino, Tommaso e la filosofia medievale** — https://www.raicultura.it/filosofia/articoli/2019/01/Zettel-presenta-Roberta-de-Monticelli---Agostino-Tommaso-e-la-filosofia-medievale-f17254c6-b0ec-4c45-bb03-afb1ea2914db.html  
+  Cerca soprattutto questo passaggio: **che cosa cambia nel rapporto fra fede e ragione da Agostino a Tommaso?** Serve a costruire la linea Agostino → scolastica → Tommaso senza trasformarla in una spiegazione causale delle opere.
 
 ## Approfondimenti consigliati — puntuali
 <!-- optional:w4-rec2 -->
