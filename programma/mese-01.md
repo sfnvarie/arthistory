@@ -320,10 +320,18 @@ Nel pieno Medioevo la filosofia scolastica cerca di articolare il rapporto fra r
 
 Per ora non serve studiare un sistema filosofico completo: basta collocare **Agostino → scolastica → Tommaso** e capire che il Medioevo non è un vuoto fra antichità e Rinascimento, ma un enorme laboratorio di sintesi e trasformazione del pensiero antico.
 
-### Lettura filosofica essenziale
+### Letture filosofiche essenziali
 <!-- task:w4-phil1 -->
 - [ ] **Rai Cultura — Roberta De Monticelli, Agostino, Tommaso e la filosofia medievale** — https://www.raicultura.it/filosofia/articoli/2019/01/Zettel-presenta-Roberta-de-Monticelli---Agostino-Tommaso-e-la-filosofia-medievale-f17254c6-b0ec-4c45-bb03-afb1ea2914db.html  
-  Cerca soprattutto questo passaggio: **che cosa cambia nel rapporto fra fede e ragione da Agostino a Tommaso?** Serve a costruire la linea Agostino → scolastica → Tommaso senza trasformarla in una spiegazione causale delle opere.
+  **Leggi la pagina; il video completo non è obbligatorio.** Concentrati su Agostino: neoplatonismo, interiorità e rapporto fra fede e ragione.
+
+<!-- task:w4-phil2 -->
+- [ ] **Zanichelli — Tommaso d’Aquino, tra la Bibbia e Aristotele** — https://aulalettere.scuola.zanichelli.it/materie-lettere/filosofia-aule/tommaso-daquino-tra-la-bibbia-e-aristotele/  
+  Concentrati sul recupero medievale di Aristotele e sul rapporto fra ragione e fede in Tommaso. L'obiettivo delle due letture è fissare la linea **Agostino → scolastica → Tommaso**, senza trasformarla in una spiegazione causale delle opere.
+
+### Approfondimento filosofico facoltativo
+<!-- optional:w4-philrec1 -->
+- [ ] **Rai Cultura — video completo di Roberta De Monticelli (circa 75 min).** Guardalo soltanto se vuoi approfondire il percorso filosofico medievale; non è richiesto per completare la settimana.
 
 ## Approfondimenti consigliati — puntuali
 <!-- optional:w4-rec2 -->
